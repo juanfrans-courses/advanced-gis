@@ -111,3 +111,15 @@ Final project development
 ### Week 14: Final presentations and final papers due
 * **Dec. 8: Final presentations**
 * **Dec. 10: Final papers due**
+
+## References
+Books and blogs
+### Books
+* Data Flow: Visualizing Information in Graphic Design
+* Data Flow 2: Visualizing Information in Graphic Design
+* Meirelles, Isabel, Design for Information
+* Yau, Nathan, Data Points
+* Bertin, Jaques, Semiology of Graphics
+* Elke, Beyer, Atlas of Shrinking Cities
+* Tufte, Edward, The Visual Display of Quantitative Information
+* 
