@@ -1,5 +1,5 @@
-# Advanced GIS: A Seminar in Spatial Analysis (Fall 2015)
-* Columbia University | GSAPP | Planning A6232
+# Advanced GIS: A Seminar in Spatial Analysis
+* Columbia University | GSAPP | Planning A6232 | Fall 2015
 * Tuesdays and Thursdays 7-9pm | 202 Fayerweather (computer lab)
 * Office hours: Mondays 10am - 12pm (previous email required)
 * Professor: Juan Francisco Saldarriaga (jfs2118@)
@@ -35,8 +35,8 @@ to the blog. Students will be required to upload some of their own work as well 
 ## Schedule
 ### Week 1: Introduction
 Course administration, syllabus and basic scripting concepts
-* Meirelles, Isabel. Design For Information, Chapters 4 and 5
-* Batty, Michael. Cities and Complexity: Understanding Cities with Cellular Automata, Agent-Based Models, and Fractals, Introduction
+* *Meirelles, Isabel. Design For Information, Chapters 4 and 5*
+* *Batty, Michael. Cities and Complexity: Understanding Cities with Cellular Automata, Agent-Based Models, and Fractals, Introduction*
 
 ### Week 2: Scripting - Basic Python and APIs
 Introduction to Python and APIs
