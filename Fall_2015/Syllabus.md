@@ -7,3 +7,21 @@
 
 ## Course Overview
 This research seminar is meant to provide students with advanced analytical and practical skills in Geographic Information Systems (GIS) and Spatial Analysis. In addition, the seminar also aims to teach students how to identify and frame unique research questions, how to develop a methodology for answering those questions and how to visually represent their research and findings. Finally, the class also seeks to introduce students to new techniques in mapping and collecting existing data.
+
+## Advanced Topics
+* Developing research questions
+* Public participation, web-mapping and APIs
+* Surface modeling
+* Spatial statistics
+* Remote sensing
+* Decision support
+* Transportation and land-use
+* Scripting
+* Data visualization
+
+## Evaluation and Grading
+* 5% Attendance
+* 10% Class participation and discussion
+* 30% Individual assingments
+* 15% Final project proposal and midterm presentation
+* 40% Final project and final presentation and report
