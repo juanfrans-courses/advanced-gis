@@ -28,6 +28,7 @@ This research seminar is meant to provide students with advanced analytical and 
 
 ## Resources and Materials
 Course files, tutorials and presentations will be located on the X-Drive. This drive also contains the GIS data available to all GSAPP students. Students are encouraged to explore the data that already exists in the drive and if necessary, use it in their projects. In addition, students should also contact the Digital Social Science Center (DSSC) located in Lehman Library (SIPA) for extra information and data.
+
 The readings for the class will be duly uploaded to Courseworks. Similarly, students will be required to submit their assignments by uploading them to Courseworks. Finally, the class will also rely heavily on submissions
 to the blog. Students will be required to upload some of their own work as well as inspirational material, encouraging and developing a critical stance and visual skills.
 
