@@ -79,4 +79,35 @@ Applications, history, process, key concepts and limitations
 
 ### Week 9: Surface modeling
 Sampling, interpolation and prediction
-* 
+* *Bolstad, Paul. GIS Fundamentals: A First Text on Geographic Information Systems, chapter 11 and 12*
+* *DeMers, Michael N. Fundaamentals of Geographic Information Systems, chapter 10*
+* *Marshall, Julian D., Brauer, Michael and Frank, Lawrence D. Healthy Neighborhoods: Walkability and Air Pollution, Environmental Health Perspectives 117 (2009)*
+
+### Week 10: Network analysis and transportation planning
+Introduction, network characteristics and history of transportation planning
+* *Mitchell, Andy. The ESRI Guide to GIS Analysis, Volume 1: Geographic Patterns & Relationships, Measuring distance or cost over a network*
+* *Nyerges, Timothy L. GIS in Urban-Regional Transportation Planning (chapter 7), in The Geography of Urban Transportation, Edited by Hanson, Susan and Giuliano, Genevieve*
+* *Oliver, Lisa N. Schuurman, Nadine and Hall, Alexander W. Comparing circular and network buffers to examine the influence of land use on walking for leisure and errands, Internation Journal of Health Geographics (2007)*
+* *Schuurman, Nadine, Fiedler, Robert S., Grzybowski, Stefan CW. and Grund, Darrin. Defining rational hospital catchments for non-urban areas based on travel-time, International Journal of Health Geographics (2006)*
+* *Sultana, Selima and Weber, Joe. Journey-to-Work Patterns in the Age of Sprawl: Evidence from Two Midsize Southern Metropolitan Areas, The Professional Geographer (2007)*
+* **Nov. 9: Surface modeling assignment due**
+
+### Week 11: Model builder
+Decision support systems, levels of measurement, rules for spatial data combination, ranking strategies, the build-out model and artificial intelligence models
+* *Allen, Jeffery and Lu, Kang. Modeling and Prediction of Future Urban Growth in the Charleston Region of South Carolina: a GIS-based Integrated Approach, Conservation Ecology 8(2)*
+* *Town of Amherst, Massachusetts, Build-Out Analysis and Future Growth Study (2002)*
+* *Carr, Margaret H. Smart Land-Use Analysis: The LUCIS Model, chapters 4 - 12*
+* *Johnson, Michael P. Spatial decision support for assisted housing mobility counseling, Decision Support Systems 41 (2005)*
+* *Longley, Paul A., Goodchild, Michael F., Maguire, David J. and Rhind, David W. Geographic Information Systems and Science, chapter 16*
+* **Nov. 16: Network analysis assignment due**
+
+### Week 12: Spatial relationships and regressions
+* **Nov. 23: Model builder assignment due**
+
+### Week 13: Work in class
+Final project development
+* **Nov. 30: Spatial regression assignment due**
+
+### Week 14: Final presentations and final papers due
+* **Dec. 8: Final presentations**
+* **Dec. 10: Final papers due**
