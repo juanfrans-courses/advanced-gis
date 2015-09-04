@@ -33,3 +33,15 @@ The readings for the class will be duly uploaded to Courseworks. Similarly, stud
 to the blog. Students will be required to upload some of their own work as well as inspirational material, encouraging and developing a critical stance and visual skills.
 
 ## Schedule
+### Week 1 (Sep. 8)
+* Introduction, course administration and syllabus
+
+### Week 2 (Sep. 15 & 17)
+* Scripting: basic Python and APIs
+
+### Week 3 (Sep. 22 & 24)
+* Scripting: basic Python and APIs
+
+### Week 4 (Sep. 29 & Oct 1)
+* Scripting: Arcpy and scripting in ArcGIS
+* Sep. 29: APIs Review
