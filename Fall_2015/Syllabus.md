@@ -70,6 +70,10 @@ Applications, history, process, key concepts and limitations
 * *Campbell, James B. Introduction to Remote Sensing, Chapter 1*
 * *Miller, Roberta Balstad and Small, Christopher, Cities from space: potential applications of remote sensing in urban environmental research and policy, Environmental Science & Policy 6 (2003)*
 * *Ryznar, Rhonda M. and Wagner, Thomas W. Using Remotely Sensed Imagery to Detect Urban Change, Viewing Detroit from Space, Journal of the American Planning Association, Summer 2001*
+* *Sawaya, Kali E., Olmanson, Leif G., Heinert, Nathan J., Brezonik, Patrick L. and Bauer, Marvin E. Extending satellite remote sensing to local scales: land and water resource monitoring using high-resolution imagery, Remote Sensing and Environment 88 (2003)*
+* *Small, Christopher, High spatial resolution spectral mixture analysis of urban reflectance, Remote Sensing of Environment 88 (2003)*
+* *Trauth, Kathleen M. A role for remote sensing information in storm water planning and management, Clean Tech Environ Policy 6 (2004)*
+* *Yang, X and Lo, C. P. Using a time series of satellite imagery to detect land use and land cover changes in the Atlanta, Georgia Metropolitan area, International Journal of Remote Sensing 9 (2002)*
 * **Oct. 26: Spatial statistics assignment 2 due**
 * **Oct. 29: Midterm presentations**
 
