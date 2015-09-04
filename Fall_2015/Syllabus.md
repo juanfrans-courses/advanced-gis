@@ -61,10 +61,15 @@ Spatial autocorrelation, spatial sampling, point pattern analysis and quadrat an
 
 ### Week 7: Spatial analysis and statistics
 Clusters, quadrats, hot-spots and cold-spots
+* *Mitchell, Andy, The ESRI Guide to GIS Analysis, Volume 2: Spatial Measurements & Statistics, Chapter 3, 4 and 5*
+* *Ogneva-Himmelberger, Yelena and Cooperman, Brian, Spatio-temporal Analysis of Noise Pollution near Boston Logan Airport: Who Carries the Cost?, Urban Studies 2010 47: 169.*
 * **Oct. 19: Spatial statistics assignment 1 due**
 
 ### Week 8: Remote sensing and midterm presentations
 Applications, history, process, key concepts and limitations
+* *Campbell, James B. Introduction to Remote Sensing, Chapter 1*
+* *Miller, Roberta Balstad and Small, Christopher, Cities from space: potential applications of remote sensing in urban environmental research and policy, Environmental Science & Policy 6 (2003)*
+* *Ryznar, Rhonda M. and Wagner, Thomas W. Using Remotely Sensed Imagery to Detect Urban Change, Viewing Detroit from Space, Journal of the American Planning Association, Summer 2001*
 * **Oct. 26: Spatial statistics assignment 2 due**
 * **Oct. 29: Midterm presentations**
 
