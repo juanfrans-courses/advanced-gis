@@ -113,7 +113,6 @@ Final project development
 * **Dec. 10: Final papers due**
 
 ## References
-Books and blogs
 ### Books
 * Data Flow: Visualizing Information in Graphic Design
 * Data Flow 2: Visualizing Information in Graphic Design
@@ -122,4 +121,28 @@ Books and blogs
 * Bertin, Jaques, Semiology of Graphics
 * Elke, Beyer, Atlas of Shrinking Cities
 * Tufte, Edward, The Visual Display of Quantitative Information
-* 
+* Tufte, Edward, Envisioning Information
+* Tactical Technology Creative, Visualizing Information for Advocacy
+* Orff, Kate, Petrochemical America
+* Dodge, Martin, Kitchin, Rob and Perkins, Chris, [The Map Reader](http://onlinelibrary.wiley.com/book/10.1002/9780470979587)
+
+### Blogs & Websites
+* [Visualizing Data](visualizingdata.com)
+* [Flowingdata](flowingdata.com)
+* [Periscopic](periscopic.com)
+* [Visualizing.org](visualizing.org)
+* [Accurat](accurat.it)
+* [Moritz Stefaner](http://truth-and-beauty.net/)
+* [Nocholas Felton](feltron.com)
+* [Infosthetics](infosthetics.com)
+* [Visualcomplexity](visualcomplexity.com)
+* [The Economist - Graphic Detail](http://www.economist.com/blogs/graphicdetail)
+* [New York Times - The Upshot](http://www.nytimes.com/upshot/)
+* [Visualoop](http://visualoop.com/)
+* [FiveThirtyEight](https://fivethirtyeight.com/datalab/our-33-weirdest-charts-from-2014/)
+* [Huffington Post](http://www.huffingtonpost.com/2014/12/22/huffpost-infographics-201_n_6351828.html)
+* [LA Times](http://graphics.latimes.com/2014-in-graphics/)
+* [Wall Street Journal](http://graphics.wsj.com/wsj-interactives-2014/)
+* [Washington Post](https://www.washingtonpost.com/graphics/national/2014-in-graphics/)
+* [Quartz](http://qz.com/318339/all-of-the-charts-we-made-in-2014/)
+* [New York Times - Interactive Storytelling](http://www.nytimes.com/interactive/2014/12/29/us/year-in-interactive-storytelling.html?_r=0#data-visualization)
