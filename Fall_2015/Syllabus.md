@@ -33,15 +33,17 @@ The readings for the class will be duly uploaded to Courseworks. Similarly, stud
 to the blog. Students will be required to upload some of their own work as well as inspirational material, encouraging and developing a critical stance and visual skills.
 
 ## Schedule
-### Week 1 (Sep. 8)
-* Introduction, course administration and syllabus
+### Week 1: Introduction
+Course administration, syllabus and basic scripting concepts
+* Meirelles, Isabel. Design For Information, Chapters 4 and 5
+* Batty, Michael. Cities and Complexity: Understanding Cities with Cellular Automata, Agent-Based Models, and Fractals, Introduction
 
-### Week 2 (Sep. 15 & 17)
-* Scripting: basic Python and APIs
+### Week 2: Scripting - Basic Python and APIs
+Introduction to Python and APIs
 
-### Week 3 (Sep. 22 & 24)
-* Scripting: basic Python and APIs
+### Week 3: Scripting - Basic Python and APIs
+Data processing and parsing in Python
 
-### Week 4 (Sep. 29 & Oct 1)
-* Scripting: Arcpy and scripting in ArcGIS
+### Week 4: Scripting - Arcpy and scripting in ArcGIS
+ArcGIS scripting functions: standalone scripting and scripting in ArcGIS
 * Sep. 29: APIs Review
