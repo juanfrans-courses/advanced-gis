@@ -1,1 +1,2 @@
-# Advanced GIS - Fall 2015 - Syllabus
+# Advanced GIS: A Seminar in Spatial Analysis
+## Fall 2015
