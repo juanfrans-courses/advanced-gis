@@ -22,7 +22,7 @@ This research seminar is meant to provide students with advanced analytical and 
 ## Evaluation and Grading
 * 5% Attendance
 * 10% Class participation and discussion
-* 30% Individual assingments
+* 30% Individual assignments
 * 15% Final project proposal and midterm presentation
 * 40% Final project and final presentation and report
 
@@ -46,4 +46,28 @@ Data processing and parsing in Python
 
 ### Week 4: Scripting - Arcpy and scripting in ArcGIS
 ArcGIS scripting functions: standalone scripting and scripting in ArcGIS
-* Sep. 29: APIs Review
+* **Sep. 29: APIs Review**
+
+### Week 5: Webmapping
+CartoDB and Mapbox with Tilemill
+* **Oct. 5: Final project proposal due**
+* **Oct. 5: Scripting in ArcGIS assignment due**
+
+### Week 6: Spatial analysis and statistics
+Spatial autocorrelation, spatial sampling, point pattern analysis and quadrat analysis
+* *McGrew, J. Chapman and Monroe, Charles B. An Introduction to Statistical Problem Solving in Geography, Chapter 12*
+* *Mitchell, Andy, The ESRI Guide to GIS Analysis, Volume 2: Spatial Measurements & Statistics, Testing Statistical Significance and Chapter 3*
+* **Oct. 12: Webmapping assignment due**
+
+### Week 7: Spatial analysis and statistics
+Clusters, quadrats, hot-spots and cold-spots
+* **Oct. 19: Spatial statistics assignment 1 due**
+
+### Week 8: Remote sensing and midterm presentations
+Applications, history, process, key concepts and limitations
+* **Oct. 26: Spatial statistics assignment 2 due**
+* **Oct. 29: Midterm presentations**
+
+### Week 9: Surface modeling
+Sampling, interpolation and prediction
+* 
