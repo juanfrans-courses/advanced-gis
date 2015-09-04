@@ -127,7 +127,7 @@ Final project development
 * Dodge, Martin, Kitchin, Rob and Perkins, Chris, [The Map Reader](http://onlinelibrary.wiley.com/book/10.1002/9780470979587)
 
 ### Blogs & Websites
-* [Visualizing Data](http://visualizingdata.com)
+* [Visualizing Data](http://www.visualisingdata.com/)
 * [Flowingdata](http://flowingdata.com)
 * [Periscopic](http://periscopic.com)
 * [Visualizing.org](http://visualizing.org)
