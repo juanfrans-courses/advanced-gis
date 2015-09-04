@@ -2,7 +2,7 @@
 * Columbia University | GSAPP | Planning A6232
 * Tuesdays and Thursdays 7-9pm | 202 Fayerweather (computer lab)
 * Office hours: Mondays 10am - 12pm (previous email required)
-*Professor: Juan Francisco Saldarriaga (jfs2118@)
+* Professor: Juan Francisco Saldarriaga (jfs2118@)
 * Teaching Assistant: Mehak Sachdeva (ms4978@)
 
 ## Course Overview
