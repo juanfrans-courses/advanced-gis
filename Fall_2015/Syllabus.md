@@ -55,6 +55,10 @@ Introduction to Python and APIs
  * [Foursquare - Overall](https://foursquare.com/infographics/pulse)
  * [Drone Strikes](http://drones.pitchinteractive.com/)
  * [New York Times](http://bit.ly/1ilGWEF)
+* Some Python IDE (integrated development environment) or text editors:
+ * [Canopy](https://www.enthought.com/products/canopy/)
+ * IDLE: Comes pre-installed with ArcGIS
+ * [Sublime Text](https://www.sublimetext.com/)
 
 ### Week 3: Scripting - Basic Python and APIs
 Data processing and parsing in Python
