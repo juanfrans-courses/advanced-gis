@@ -49,6 +49,12 @@ Introduction to Python and APIs
   * [stackoverflow](https://stackoverflow.com/)
   * [codecademy Python course](https://www.codecademy.com/en/tracks/python)
 * Examples of what people have done with APIs:
+ * [Netflix - New York Times](http://nyti.ms/1gldFbG)
+ * [Flickr - Tourists vs. Locals](http://bit.ly/JKpE84)
+ * [Foursquare - Personal timeline](https://foursquare.com/timemachine)
+ * [Foursquare - Overall](https://foursquare.com/infographics/pulse)
+ * [Drone Strikes](http://drones.pitchinteractive.com/)
+ * [New York Times](http://bit.ly/1ilGWEF)
 
 ### Week 3: Scripting - Basic Python and APIs
 Data processing and parsing in Python
