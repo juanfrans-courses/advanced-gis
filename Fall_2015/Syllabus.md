@@ -32,7 +32,7 @@ Course files, tutorials and presentations will be located on the X-Drive. This d
 The readings for the class will be duly uploaded to Courseworks. Similarly, students will be required to submit their assignments by uploading them to Courseworks. Finally, the class will also rely heavily on submissions
 to the blog. Students will be required to upload some of their own work as well as inspirational material, encouraging and developing a critical stance and visual skills.
 
-Link to the [blog](http://gsappadvgis2015fall.tumblr.com/).
+[Link to the blog](http://gsappadvgis2015fall.tumblr.com/).
 
 ## Schedule
 ### Week 1: Introduction
