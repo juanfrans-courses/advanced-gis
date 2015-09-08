@@ -44,6 +44,11 @@ Course administration, syllabus and basic scripting concepts
 
 ### Week 2: Scripting - Basic Python and APIs
 Introduction to Python and APIs
+* Python references:
+  * [Python 2.7.10 Documentation](https://docs.python.org/2/)
+  * [stackoverflow](https://stackoverflow.com/)
+  * [codecademy Python course](https://www.codecademy.com/en/tracks/python)
+* Examples of what people have done with APIs:
 
 ### Week 3: Scripting - Basic Python and APIs
 Data processing and parsing in Python
