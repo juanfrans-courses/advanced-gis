@@ -34,6 +34,8 @@ to the blog. Students will be required to upload some of their own work as well 
 
 [Link to the blog](http://gsappadvgis2015fall.tumblr.com/).
 
+[Link to number of posts](https://docs.google.com/spreadsheets/d/11O2WTCk-XuzbKksEJHnpIR-pAACmjbIqgfVusWHabV0/edit?usp=sharing).
+
 ## Schedule
 ### Week 1: Introduction
 Course administration, syllabus and basic scripting concepts
