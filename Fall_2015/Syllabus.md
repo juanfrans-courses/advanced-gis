@@ -59,6 +59,13 @@ Introduction to Python and APIs
  * [Canopy](https://www.enthought.com/products/canopy/)
  * IDLE: Comes pre-installed with ArcGIS
  * [Sublime Text](https://www.sublimetext.com/)
+* Some Python concepts for this week:
+ * Variables
+ * Loops
+ * Conditionals
+ * Functions
+ * Comments
+ * Shell vs. Files
 
 ### Week 3: Scripting - Basic Python and APIs
 Data processing and parsing in Python
