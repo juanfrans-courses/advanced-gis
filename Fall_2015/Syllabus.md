@@ -84,6 +84,10 @@ Data processing and parsing in Python
 ### Week 4: Scripting - Arcpy and scripting in ArcGIS
 ArcGIS scripting functions: standalone scripting and scripting in ArcGIS
 * **Sep. 29: APIs Review**
+* Possible exercises:
+ * Select buildings by borough and by year built.
+ * Select top Citibike stations and taxi trips within a radius of those stations.
+ * Produce maps, charts, code and pseudocode. 
 
 ### Week 5: Webmapping
 CartoDB and Mapbox with Tilemill
