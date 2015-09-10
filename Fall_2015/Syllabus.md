@@ -42,6 +42,7 @@ Course administration, syllabus and basic scripting concepts
 * *Meirelles, Isabel. Design For Information, Chapters 4 and 5*
 * *Batty, Michael. Cities and Complexity: Understanding Cities with Cellular Automata, Agent-Based Models, and Fractals, Introduction*
 * *[What is Code? - Bloomberg](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)*
+* *[Digital Matatus - Wired](http://www.wired.com/2015/08/nairobi-got-ad-hoc-bus-system-google-maps/)*
 
 ### Week 2: Scripting - Basic Python and APIs
 Introduction to Python and APIs
