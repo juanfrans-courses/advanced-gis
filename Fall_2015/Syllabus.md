@@ -48,6 +48,7 @@ Introduction to Python and APIs
   * [Python 2.7.10 Documentation](https://docs.python.org/2/)
   * [stackoverflow](https://stackoverflow.com/)
   * [codecademy Python course](https://www.codecademy.com/en/tracks/python)
+  * [Lynda Python tutorial](http://www.lynda.com/Python-tutorials/Up-Running-Python/122467-2.html)
 * Examples of what people have done with APIs:
  * [Netflix - New York Times](http://nyti.ms/1gldFbG)
  * [Flickr - Tourists vs. Locals](http://bit.ly/JKpE84)
