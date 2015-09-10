@@ -41,6 +41,7 @@ to the blog. Students will be required to upload some of their own work as well 
 Course administration, syllabus and basic scripting concepts
 * *Meirelles, Isabel. Design For Information, Chapters 4 and 5*
 * *Batty, Michael. Cities and Complexity: Understanding Cities with Cellular Automata, Agent-Based Models, and Fractals, Introduction*
+* *[What is Code? - Bloomberg](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)
 
 ### Week 2: Scripting - Basic Python and APIs
 Introduction to Python and APIs
@@ -49,6 +50,7 @@ Introduction to Python and APIs
   * [stackoverflow](https://stackoverflow.com/)
   * [codecademy Python course](https://www.codecademy.com/en/tracks/python)
   * [Lynda Python tutorial](http://www.lynda.com/Python-tutorials/Up-Running-Python/122467-2.html)
+  * [Plethora Project - Python for Rhino and other tutorials](http://www.plethora-project.com/education/)
 * Examples of what people have done with APIs:
  * [Netflix - New York Times](http://nyti.ms/1gldFbG)
  * [Flickr - Tourists vs. Locals](http://bit.ly/JKpE84)
