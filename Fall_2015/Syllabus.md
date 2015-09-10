@@ -65,9 +65,10 @@ Introduction to Python and APIs
 * Some Python concepts for this week:
  * Variables
  * Loops
+ * Nested loops
  * Conditionals
  * Functions
- * Comments
+ * Comments (one line and multiple lines)
  * Shell vs. Files
  * Pseudocode
  * Modules or Libraries
