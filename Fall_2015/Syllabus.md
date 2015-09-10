@@ -93,6 +93,7 @@ Data processing and parsing in Python
  * Compare PLUTO land-use information with Foursquare venues or check-ins.
  * Collect data from Twitter using specific hashtags and analyze it geographically.
  * Map taxi routes using data from the TLC and Google Maps - Directions - API.
+ * Measure "deadhead" trips for the Green cabs using Google Maps - Directions - API or Mapquest directions API.
 
 ### Week 4: Scripting - Arcpy and scripting in ArcGIS
 ArcGIS scripting functions: standalone scripting and scripting in ArcGIS
