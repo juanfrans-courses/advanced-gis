@@ -66,6 +66,9 @@ Introduction to Python and APIs
  * Functions
  * Comments
  * Shell vs. Files
+ * Pseudocode
+ * Modules or Libraries
+ * Global vs. Local variables
 
 ### Week 3: Scripting - Basic Python and APIs
 Data processing and parsing in Python
