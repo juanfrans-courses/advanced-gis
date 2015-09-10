@@ -77,6 +77,16 @@ Introduction to Python and APIs
 
 ### Week 3: Scripting - Basic Python and APIs
 Data processing and parsing in Python
+* Common APIs:
+ * [Google Geocode API](https://developers.google.com/maps/documentation/geocoding/intro)
+ * [Google Directions API](https://developers.google.com/maps/documentation/directions/intro)
+ * [Mapquest Geocode API](https://developer.mapquest.com/products/geocoding)
+ * [Mapquest Directions API](https://developer.mapquest.com/products/directions)
+ * [Foursquare API](https://developer.foursquare.com/)
+ * [Twitter API](https://dev.twitter.com/overview/documentation)
+ * [NPR API](http://www.npr.org/api/index.php)
+ * [Facebook API](https://developers.facebook.com/)
+ * [Instagram API](https://instagram.com/developer/)
 * Possible exercises:
  * Analyze bike lanes in New York based on Citibike origin and destination (using Google Maps - Directions - API)
  * Compare PLUTO land-use information with Foursquare venues or check-ins.
