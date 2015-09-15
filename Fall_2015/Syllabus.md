@@ -75,6 +75,25 @@ Introduction to Python and APIs
  * Modules or Libraries
  * Global vs. Local variables
  * Reading and writing files
+* Code so far:
+`# Importing libraries
+from urllib2 import urlopen
+from json import load
+
+# Setting global variables
+token = 'add your token here'
+baseURL = 'https://api.foursquare.com/v2/venues/search'
+
+lat = 40.7
+lon = -74
+
+# Querying the API
+request = baseURL+'?'+'ll='+str(lat)+','+str(lon)+'&oauth_token='+token+'&limit=50'
+response = urlopen(request)
+baseData = load(response)
+print baseData
+
+print 'Done with everything...'
 
 ### Week 3: Scripting - Basic Python and APIs
 Data processing and parsing in Python
