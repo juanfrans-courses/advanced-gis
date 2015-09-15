@@ -76,7 +76,8 @@ Introduction to Python and APIs
  * Global vs. Local variables
  * Reading and writing files
 * Code so far:
-`# Importing libraries
+```python
+# Importing libraries
 from urllib2 import urlopen
 from json import load
 
@@ -94,6 +95,7 @@ baseData = load(response)
 print baseData
 
 print 'Done with everything...'
+```
 
 ### Week 3: Scripting - Basic Python and APIs
 Data processing and parsing in Python
