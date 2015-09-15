@@ -78,6 +78,7 @@ Introduction to Python and APIs
 * Code so far:
 ```python
 # Importing libraries
+print 'Importing libraries...'
 from urllib2 import urlopen
 from json import load
 
@@ -89,6 +90,7 @@ lat = 40.7
 lon = -74
 
 # Querying the API
+print 'Querying API...'
 request = baseURL+'?'+'ll='+str(lat)+','+str(lon)+'&oauth_token='+token+'&limit=50'
 response = urlopen(request)
 baseData = load(response)
