@@ -83,7 +83,7 @@ from urllib2 import urlopen
 from json import load
 
 # Setting global variables
-token = '2PESPAGVZLIA1QEKCQOGD0C1TLG1YI2ZWCWHHKCMJX2F1UQ0&v=20150910'
+token = 'add your token here'
 baseURL = 'https://api.foursquare.com/v2/venues/search'
 
 lat = 40.7
