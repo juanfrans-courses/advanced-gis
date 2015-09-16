@@ -83,18 +83,41 @@ from urllib2 import urlopen
 from json import load
 
 # Setting global variables
-token = 'add your token here'
+token = '2PESPAGVZLIA1QEKCQOGD0C1TLG1YI2ZWCWHHKCMJX2F1UQ0&v=20150910'
 baseURL = 'https://api.foursquare.com/v2/venues/search'
 
 lat = 40.7
 lon = -74
 
+limit = 5
+
+# Opening the output file
+output = open('//psf/Home/Desktop/Foursquare_Output.csv', 'wb')
+output.write('Name,lat,lon,checkins\n')
+
 # Querying the API
-print 'Querying API...'
-request = baseURL+'?'+'ll='+str(lat)+','+str(lon)+'&oauth_token='+token+'&limit=50'
+print 'Querying the API...'
+request = baseURL+'?'+'ll='+str(lat)+','+str(lon)+'&oauth_token='+token+'&limit='+str(limit)
+
 response = urlopen(request)
 baseData = load(response)
-print baseData
+venues = baseData['response']['venues']
+
+# Looping through the venues and getting some of the data out
+for x in range(len(venues)):
+    print venues[x]['name']
+    output.write(venues[x]['name']+',')
+    location = venues[x]['location']
+    print location['lat']
+    output.write(str(location['lat'])+',')
+    output.write(str(location['lng'])+',')
+    print location['lng']
+    stats = venues[x]['stats']
+    output.write(str(stats['checkinsCount'])+'\n')
+    print stats['checkinsCount']
+
+# Closing the output file
+output.close()
 
 print 'Done with everything...'
 ```
