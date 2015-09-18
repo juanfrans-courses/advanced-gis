@@ -79,47 +79,72 @@ Introduction to Python and APIs
 ```python
 # Importing libraries
 print 'Importing libraries...'
-from urllib2 import urlopen
+import urllib2 # Now I am importing the whole urllib2 library, not just the urlopen function, in order to catch any HTTPErrors
 from json import load
+import csv, time, codecs
 
 # Setting global variables
-token = 'add your token here'
+clientID = 'your client id here'
+clientSecret = 'your client secret here'
 baseURL = 'https://api.foursquare.com/v2/venues/search'
+limit = 5 # This limit can be adjusted to a maximum of 50
 
-lat = 40.7
-lon = -74
-
-limit = 5
+# Opening the points file
+pointFileLocation = 'path to your points file'
+with open(pointFileLocation, 'rb') as basePoints:
+    reader = csv.reader(basePoints, delimiter = ',')
+    pointsList = list(reader)
 
 # Opening the output file
-output = open('//psf/Home/Desktop/Foursquare_Output.csv', 'wb')
-output.write('Name,lat,lon,checkins\n')
+output = codecs.open('path to your output file', 'wb', encoding='utf-8') # For tab delimited files, it's best to save your file as .txt
 
-# Querying the API
-print 'Querying the API...'
-request = baseURL+'?'+'ll='+str(lat)+','+str(lon)+'&oauth_token='+token+'&limit='+str(limit)
+# Writing the first line of the output file (header)
+output.write('Name' + '\t' + 'lat' + '\t' + 'lon' + '\t' + 'checkins' + '\n')
 
-response = urlopen(request)
-baseData = load(response)
-venues = baseData['response']['venues']
+# Starting the loop (for every single line in the points file)
+errors = 0 # I'm setting up this variable to keep track of the number of errors
+for line in pointsList:
+    lat2 = line[2]
+    lon2 = line[3]
+    # Querying the API
+    print 'Querying the API...'
+    try:
+        # I've changed the request to use client ID and client secret because it gives you a higher API quota (5,000 requests per hour)
+        request = baseURL+'?'+'ll='+str(lat2)+','+str(lon2)+'&client_id='+clientID+'&client_secret='+clientSecret+'&v=20150918'+'&limit='+str(limit)
+        response = urllib2.urlopen(request) # Now we have to call the urlopen function, from the urllib2 module like this: urllib2.urlopen
+        baseData = load(response)
+        venues = baseData['response']['venues']
+        # Looping through the venues and getting some of the data out
+        for x in range(len(venues)):
+            venueName = venues[x]['name']
+            location = venues[x]['location']
+            venueLat = location['lat']
+            venueLon = location['lng']
+            stats = venues[x]['stats']
+            venueCheckinsCount = stats['checkinsCount']
+            output.write(venueName + '\t')
+            output.write(str(venueLat) + '\t')
+            output.write(str(venueLon) + '\t')
+            output.write(str(venueCheckinsCount) + '\n')
+            venueName2 = venueName.encode('utf8', 'replace') # This line makes any weird characters in the venue name printable for the next line
+            print venueName2 + ', ' + str(venueLat) + ', ' + str(venueLon) + ', ' + str(venueCheckinsCount)
 
-# Looping through the venues and getting some of the data out
-for x in range(len(venues)):
-    print venues[x]['name']
-    output.write(venues[x]['name']+',')
-    location = venues[x]['location']
-    print location['lat']
-    output.write(str(location['lat'])+',')
-    output.write(str(location['lng'])+',')
-    print location['lng']
-    stats = venues[x]['stats']
-    output.write(str(stats['checkinsCount'])+'\n')
-    print stats['checkinsCount']
+        print 'Done with loop ' + str(line[0])
+
+    # Catch any HTTP errors and print them to the output screen
+    except urllib2.HTTPError as e:
+        errors += 1
+        print e
+        # If you start getting 403 errors, it's probably because you've exceeded your quota. So you have to wait for a while before you can query the API again.
+
+    # Wait for one second before starting the next query
+    time.sleep(1)
 
 # Closing the output file
 output.close()
 
 print 'Done with everything...'
+print 'There were ' + str(errors) + ' errors...'
 ```
 
 ### Week 3: Scripting - Basic Python and APIs
