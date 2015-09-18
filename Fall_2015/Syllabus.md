@@ -159,6 +159,8 @@ Data processing and parsing in Python
  * [NPR API](http://www.npr.org/api/index.php)
  * [Facebook API](https://developers.facebook.com/)
  * [Instagram API](https://instagram.com/developer/)
+ * [Zillow API](http://www.zillow.com/howto/api/APIOverview.htm)
+ * [Trulia API](http://developer.trulia.com/)
 * Possible exercises:
  * Analyze bike lanes in New York based on Citibike origin and destination (using Google Maps - Directions - API)
  * Compare PLUTO land-use information with Foursquare venues or check-ins.
