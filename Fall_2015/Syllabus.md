@@ -181,6 +181,7 @@ ArcGIS scripting functions:
  * [GDAL](https://pypi.python.org/pypi/GDAL/)
 
 Exercises:
+
 1. Label census tracts based on their median household income:
  * Create a new field in the attribute table and write a script to fill in the values for the label.
  * Use the expression option in the layer properties and write a script to calculate the appropriate label.
