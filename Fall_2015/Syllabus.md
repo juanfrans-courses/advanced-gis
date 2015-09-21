@@ -167,18 +167,29 @@ print 'There were ' + str(errors) + ' errors...'
  * Map taxi routes using data from the TLC and Google Maps - Directions - API.
  * Measure "deadhead" trips for the Green cabs using Google Maps - Directions - API or Mapquest directions API.
 
-### Week 3: Scripting - Basic Python and APIs
-Data processing and parsing in Python
-
-
-### Week 4: Scripting - Arcpy and scripting in ArcGIS
-ArcGIS scripting functions: standalone scripting and scripting in ArcGIS
-* **Sep. 29: APIs Review**
+### Week 3: Scripting - Arcpy and scripting in ArcGIS
+ArcGIS scripting functions: standalone scripting and scripting in ArcGIS:
+* Different ways of scripting in ArcGIS:
+ * Field calculation in the Attribute Table
+ * Labeling features
+ * Selection methods?
+ * Python console in ArcMap
+ * Export tool as Python script
+ * Export Geoprocessing Results as Python script
+ * Standalone scripts with ArcPy module
+* Other GIS scripting tools:
+ * [Python console in QGIS](http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/intro.html)
+ * [GDAL](https://pypi.python.org/pypi/GDAL/)
 * Possible exercises:
  * Select buildings by borough and by year built.
  * Select top Citibike stations and taxi trips within a radius of those stations.
  * Select deadhead trips from green cabs.
  * Produce maps, charts, code and pseudocode. 
+
+### Week 4: Scripting - Arcpy and scripting in ArcGIS
+ArcGIS scripting functions: standalone scripting and scripting in ArcGIS
+* **Sep. 29: APIs Review**
+
 
 ### Week 5: Webmapping
 CartoDB and Mapbox with Tilemill
