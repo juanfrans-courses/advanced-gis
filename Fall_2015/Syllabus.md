@@ -182,17 +182,17 @@ ArcGIS scripting functions:
 
 Exercises:
 1. Label census tracts based on their median household income:
- 1. Create a new field in the attribute table and write a script to fill in the values for the label.
- 2. Use the expression option in the layer properties and write a script to calculate the appropriate label.
+  1. Create a new field in the attribute table and write a script to fill in the values for the label.
+  2. Use the expression option in the layer properties and write a script to calculate the appropriate label.
 2. Study "deadhead" green cab trips and figure out the distribution of origins in the edge TAZs
- 1. Create a random sample (5,000 or 10,000) trips.
- 2. Create two shapefiles with the random sample, one with origins and one with destinations.
- 3. Manually select the "deadhead" trips from the destination shapefile and extract stats.
- 4. Manually select all the "edge" TAZs polygons.
- 5. Write a script to select by location the origins of green cabs for each "edge" TAZ and exports a .csv file with their stats.
- 6. Calculate the distance from each destination to the nearest "edge" TAZ (centroid).
- 7. Calculate the distance from each destination to all "edge" TAZ (centroid) and multiply by proportion.
- 8. Add all distances and figure out the range for the "wasted" trips.
+  1. Create a random sample (5,000 or 10,000) trips.
+  2. Create two shapefiles with the random sample, one with origins and one with destinations.
+  3. Manually select the "deadhead" trips from the destination shapefile and extract stats.
+  4. Manually select all the "edge" TAZs polygons.
+  5. Write a script to select by location the origins of green cabs for each "edge" TAZ and exports a .csv file with their stats.
+  6. Calculate the distance from each destination to the nearest "edge" TAZ (centroid).
+  7. Calculate the distance from each destination to all "edge" TAZ (centroid) and multiply by proportion.
+  8. Add all distances and figure out the range for the "wasted" trips.
 3. Select top Citibike stations and taxi trips within a radius of those stations.
 * Assignment:
  * Select buildings by borough and by year built.
