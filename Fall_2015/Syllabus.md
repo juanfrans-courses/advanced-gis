@@ -76,7 +76,7 @@ Introduction to Python and APIs:
  * Reading and writing files
 
 ### Week 2: Scripting - Basic Python and APIs
-Introduction to Python and APIs
+Introduction to Python and APIs:
 * Code so far:
 ```python
 # Importing libraries
@@ -148,9 +148,6 @@ output.close()
 print 'Done with everything...'
 print 'There were ' + str(errors) + ' errors...'
 ```
-
-### Week 3: Scripting - Basic Python and APIs
-Data processing and parsing in Python
 * Common APIs:
  * [Google Geocode API](https://developers.google.com/maps/documentation/geocoding/intro)
  * [Google Directions API](https://developers.google.com/maps/documentation/directions/intro)
@@ -169,6 +166,10 @@ Data processing and parsing in Python
  * Collect data from Twitter using specific hashtags and analyze it geographically.
  * Map taxi routes using data from the TLC and Google Maps - Directions - API.
  * Measure "deadhead" trips for the Green cabs using Google Maps - Directions - API or Mapquest directions API.
+
+### Week 3: Scripting - Basic Python and APIs
+Data processing and parsing in Python
+
 
 ### Week 4: Scripting - Arcpy and scripting in ArcGIS
 ArcGIS scripting functions: standalone scripting and scripting in ArcGIS
