@@ -194,14 +194,9 @@ Exercises:
  * Calculate the distance from each destination to the nearest "edge" TAZ (centroid).
  * Calculate the distance from each destination to all "edge" TAZ (centroid) and multiply by proportion.
  * Add all distances and figure out the range for the "wasted" trips.
- * Files to use:
-
-  * Traffic Analysis Zones (X:/GIS/New_York_City/Transportation/TAZ)
-  * [Green cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
+ * Files to use: *Traffic Analysis Zones (X:/GIS/New_York_City/Transportation/TAZ)* & *[Green cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)*
 3. Select top Citibike stations and taxi trips within a radius of those stations.
- * Files to use:
-  * [Citibike trips](https://www.citibikenyc.com/system-data)
-  * [Yellow cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)
+ * Files to use: *[Citibike trips](https://www.citibikenyc.com/system-data)* & *[Yellow cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)*
 * Assignment:
  * Select buildings by borough and by year built.
  * Produce maps, charts, code and pseudocode.
