@@ -38,13 +38,13 @@ to the blog. Students will be required to upload some of their own work as well 
 
 ## Schedule
 ### Week 1: Introduction
-Course administration, syllabus and basic scripting concepts
+Course administration and syllabus:
 * *Meirelles, Isabel. Design For Information, Chapters 4 and 5*
 * *Batty, Michael. Cities and Complexity: Understanding Cities with Cellular Automata, Agent-Based Models, and Fractals, Introduction*
 * *[What is Code? - Bloomberg](http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/)*
 * *[Digital Matatus - Wired](http://www.wired.com/2015/08/nairobi-got-ad-hoc-bus-system-google-maps/)*
 
-Introduction to Python and APIs
+Introduction to Python and APIs:
 * Python references:
   * [Python 2.7.10 Documentation](https://docs.python.org/2/)
   * [stackoverflow](https://stackoverflow.com/)
@@ -62,27 +62,7 @@ Introduction to Python and APIs
  * [Canopy](https://www.enthought.com/products/canopy/)
  * IDLE: Comes pre-installed with ArcGIS
  * [Sublime Text](https://www.sublimetext.com/)
-
-### Week 2: Scripting - Basic Python and APIs
-Introduction to Python and APIs
-* Python references:
-  * [Python 2.7.10 Documentation](https://docs.python.org/2/)
-  * [stackoverflow](https://stackoverflow.com/)
-  * [codecademy Python course](https://www.codecademy.com/en/tracks/python)
-  * [Lynda Python tutorial](http://www.lynda.com/Python-tutorials/Up-Running-Python/122467-2.html)
-  * [Plethora Project - Python for Rhino and other tutorials](http://www.plethora-project.com/education/)
-* Examples of what people have done with APIs:
- * [Netflix - New York Times](http://nyti.ms/1gldFbG)
- * [Flickr - Tourists vs. Locals](http://bit.ly/JKpE84)
- * [Foursquare - Personal timeline](https://foursquare.com/timemachine)
- * [Foursquare - Overall](https://foursquare.com/infographics/pulse)
- * [Drone Strikes](http://drones.pitchinteractive.com/)
- * [New York Times](http://bit.ly/1ilGWEF)
-* Some Python IDE (integrated development environment) or text editors:
- * [Canopy](https://www.enthought.com/products/canopy/)
- * IDLE: Comes pre-installed with ArcGIS
- * [Sublime Text](https://www.sublimetext.com/)
-* Some Python concepts for this week:
+* Some basic Python concepts:
  * Variables
  * Loops
  * Nested loops
@@ -94,6 +74,9 @@ Introduction to Python and APIs
  * Modules or Libraries
  * Global vs. Local variables
  * Reading and writing files
+
+### Week 2: Scripting - Basic Python and APIs
+Introduction to Python and APIs
 * Code so far:
 ```python
 # Importing libraries
