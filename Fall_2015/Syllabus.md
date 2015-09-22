@@ -203,7 +203,12 @@ Exercises:
 
 ### Week 4: Webmapping
 CartoDB and Mapbox with Tilemill
-* **Sep. 29: APIs Review**
+* **Sep. 29: APIs Review**:
+ * 5 minute presentation (slides)
+ * Reserach question
+ * Maps, graphs and analysis (describe the data and your findings)
+ * Pseudocode and code
+ * Problems with coding or with APIs (what do we need to be careful about?)
 * **Oct. 1: Scripting in ArcGIS assignment due**
 
 ### Week 5: Spatial analysis and statistics
