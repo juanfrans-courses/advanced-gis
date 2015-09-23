@@ -243,7 +243,7 @@ Sampling, interpolation and prediction
 * *Bolstad, Paul. GIS Fundamentals: A First Text on Geographic Information Systems, chapter 11 and 12*
 * *DeMers, Michael N. Fundaamentals of Geographic Information Systems, chapter 10*
 * *Marshall, Julian D., Brauer, Michael and Frank, Lawrence D. Healthy Neighborhoods: Walkability and Air Pollution, Environmental Health Perspectives 117 (2009)*
-* ** Oct. 26: Remote sensing assignment due**
+* **Oct. 26: Remote sensing assignment due**
 
 ### Week 9: Network analysis and transportation planning
 Introduction, network characteristics and history of transportation planning
