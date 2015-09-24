@@ -219,6 +219,8 @@ Exercises:
 
 ### Week 4: Webmapping
 CartoDB and Mapbox with Tilemill
+* [OpenStreetsMap](https://www.openstreetmap.org)
+* [Mapzen](https://mapzen.com/)
 * **Sep. 29: APIs Review**:
  * 5 minute presentation (slides)
  * Reserach question
