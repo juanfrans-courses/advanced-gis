@@ -199,12 +199,12 @@ Exercises:
  * Files to use: *[Citibike trips](https://www.citibikenyc.com/system-data)* & *[Yellow cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)*
 * Assignment:
  * For every borough in the city select the lots that fall into the following categories:
-  * Residential or Mixed-Use
-  * Excess FAR (built FAR < maximum allowable FAR)
-  * For buildings built between 1930 and 1958, FAR =< 4.9
-  * For buildings built in 1959, FAR =< 7.5
-  * For buildings built in 1960, FAR =< 11.25
-  * For buildigns built after 1960, FAR =< 12.0
+  1. Residential or Mixed-Use
+  2. Excess FAR (built FAR < maximum allowable FAR)
+  3. For buildings built between 1930 and 1958, FAR =< 4.9
+  4. For buildings built in 1959, FAR =< 7.5
+  5. For buildings built in 1960, FAR =< 11.25
+  6. For buildigns built after 1960, FAR =< 12.0
  * Create a map for each time period.
  * Get the following data from each time period:
   * Extra square footage that could have been built (based on the maximum allowable FAR).
