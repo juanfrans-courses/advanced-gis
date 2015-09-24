@@ -212,6 +212,10 @@ Exercises:
     * Extra number of people that could have been housed (based on an average of 2.4 people per unit).
   * Get the same data just for buildings within 1/2 a mile of transit stops (subway stops).
   * Submit maps, charts, data, code and pseudocode.
+  * Files to be used:
+    * PLUTO lot files: X:/GIS/New_York_City/Buildings_Lots/Lots/PLUTO/2015_15v1/
+    * Subway stations: X:/GIS/New_York_City/Transportation/Subway/Subway_Stations_2009/
+    * Other files that you might need for your maps.
 
 ### Week 4: Webmapping
 CartoDB and Mapbox with Tilemill
