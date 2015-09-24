@@ -201,17 +201,17 @@ Exercises:
   * For every borough in the city select the lots that fall into the following categories:
     * Residential or Mixed-Use
     * Excess FAR (built FAR < maximum allowable FAR)
-   c. For buildings built between 1930 and 1958, FAR =< 4.9
-   4. For buildings built in 1959, FAR =< 7.5
-   5. For buildings built in 1960, FAR =< 11.25
-   6. For buildigns built after 1960, FAR =< 12.0
- * Create a map for each time period.
- * Get the following data from each time period:
-  * Extra square footage that could have been built (based on the maximum allowable FAR).
-  * Extra number of units that could have been built (based on an average size of 1,700 sf per unit).
-  * Extra number of people that could have been housed (based on an average of 2.4 people per unit).
- * Get the same data just for buildings within 1/2 a mile of transit stops (subway stops).
- * Submit maps, charts, data, code and pseudocode.
+    * For buildings built between 1930 and 1958, FAR =< 4.9
+    * For buildings built in 1959, FAR =< 7.5
+    * For buildings built in 1960, FAR =< 11.25
+    * For buildigns built after 1960, FAR =< 12.0
+  * Create a map for each time period.
+  * Get the following data from each time period:
+    * Extra square footage that could have been built (based on the maximum allowable FAR).
+    * Extra number of units that could have been built (based on an average size of 1,700 sf per unit).
+    * Extra number of people that could have been housed (based on an average of 2.4 people per unit).
+  * Get the same data just for buildings within 1/2 a mile of transit stops (subway stops).
+  * Submit maps, charts, data, code and pseudocode.
 
 ### Week 4: Webmapping
 CartoDB and Mapbox with Tilemill
