@@ -198,10 +198,9 @@ Exercises:
 3. Select top Citibike stations and taxi trips within a radius of those stations.
  * Files to use: *[Citibike trips](https://www.citibikenyc.com/system-data)* & *[Yellow cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)*
 * Assignment:
- * For every borough in the city select the lots that fall into the following categories:
-
-   a. Residential or Mixed-Use
-   b. Excess FAR (built FAR < maximum allowable FAR)
+  * For every borough in the city select the lots that fall into the following categories:
+    * Residential or Mixed-Use
+    * Excess FAR (built FAR < maximum allowable FAR)
    c. For buildings built between 1930 and 1958, FAR =< 4.9
    4. For buildings built in 1959, FAR =< 7.5
    5. For buildings built in 1960, FAR =< 11.25
