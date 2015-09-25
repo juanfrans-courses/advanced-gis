@@ -415,3 +415,4 @@ Final project development
 * [Quartz](http://qz.com/318339/all-of-the-charts-we-made-in-2014/)
 * [New York Times - Interactive Storytelling](http://www.nytimes.com/interactive/2014/12/29/us/year-in-interactive-storytelling.html?_r=0#data-visualization)
 * [Fathom](http://fathom.info/)
+* [Data Canvas](http://map.datacanvas.org/#)
