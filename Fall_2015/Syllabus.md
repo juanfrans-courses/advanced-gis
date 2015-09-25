@@ -195,8 +195,7 @@ Exercises:
  * Calculate the distance from each destination to all "edge" TAZ (centroid) and multiply by proportion.
  * Add all distances and figure out the range for the "wasted" trips.
  * Files to use: *Traffic Analysis Zones (X:/GIS/New_York_City/Transportation/TAZ)* & *[Green cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)*
-
-* Code - Creating random samples (for multiple files):
+ * Code - Creating random samples (for multiple files):
 ```python
 print 'Importing modules...'
 import csv, random
@@ -211,7 +210,7 @@ randomPopulation = 5000
 
 # Looping through each of the files and creating the random sample
 for x in range(1,7): # Since we only have 6 files we loop from 1 to 7
-    baseFile = 'green_tripdata_2015-' + "%02d" % (x,) + '.csv' # We use `"%02d" % (x,)` to format x as 01, 02, 03, etc...
+    baseFile = 'green_tripdata_2015-' + "%02d" % (x,) + '.csv' # We use "%02d" % (x,) to format x as 01, 02, 03, etc...
     with open(inputLocation + '/' + baseFile, 'rb') as baseData: # Reading the base file
         reader = csv.reader(baseData, delimiter = ',')
         tripList = list(reader)
@@ -231,7 +230,6 @@ for x in range(1,7): # Since we only have 6 files we loop from 1 to 7
 
 print 'Finished....'
 ```
-
 3. Select top Citibike stations and taxi trips within a radius of those stations.
  * Files to use: *[Citibike trips](https://www.citibikenyc.com/system-data)* & *[Yellow cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)*
 * Assignment:
