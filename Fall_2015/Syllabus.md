@@ -195,6 +195,43 @@ Exercises:
  * Calculate the distance from each destination to all "edge" TAZ (centroid) and multiply by proportion.
  * Add all distances and figure out the range for the "wasted" trips.
  * Files to use: *Traffic Analysis Zones (X:/GIS/New_York_City/Transportation/TAZ)* & *[Green cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)*
+
+* Code - Creating random samples (for multiple files):
+```python
+print 'Importing modules...'
+import csv, random
+
+# Setting up global variables
+inputLocation = 'path to your folder'
+outputLocation = inputLocation
+#baseFile = 'green_tripdata_2015-05.csv' These are commented out because we are using the loop to generate the file names
+#outputFile =  'Random_Green_201505.csv'
+
+randomPopulation = 5000
+
+# Looping through each of the files and creating the random sample
+for x in range(1,7): # Since we only have 6 files we loop from 1 to 7
+    baseFile = 'green_tripdata_2015-' + "%02d" % (x,) + '.csv' # We use `"%02d" % (x,)` to format x as 01, 02, 03, etc...
+    with open(inputLocation + '/' + baseFile, 'rb') as baseData: # Reading the base file
+        reader = csv.reader(baseData, delimiter = ',')
+        tripList = list(reader)
+    outputFile = 'Random_Green_20150' + str(x) + '.csv'
+    output = open(outputLocation + '/' + outputFile, 'wb') # Creating the output file
+
+    output.write(','.join(tripList[0]) + '\n') # Writing the first line (headers)
+
+    randomSample = random.sample(tripList[1:], randomPopulation) # Creating the sample list
+
+    for line in randomSample:
+        output.write(','.join(line) + '\n') # Writing every line from the sample list to the output file
+
+    output.close()
+    tripList = [] # Emptying the tripList array so that we don't run out of memory
+    print 'Done with file ' + str(x)
+
+print 'Finished....'
+```
+
 3. Select top Citibike stations and taxi trips within a radius of those stations.
  * Files to use: *[Citibike trips](https://www.citibikenyc.com/system-data)* & *[Yellow cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)*
 * Assignment:
