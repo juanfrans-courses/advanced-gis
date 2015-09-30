@@ -230,7 +230,7 @@ for x in range(1,7): # Since we only have 6 files we loop from 1 to 7
 
 print 'Finished....'
 ```
-* Code - Creating shapefiles based on X and Y data:
+* Code - Creating shapefiles based on X and Y data (for multiple files):
 ```python
 print 'Importing modules...'
 import csv
@@ -239,9 +239,6 @@ import arcpy
 # Setting up global variables
 inputLocation = 'path to your folder'
 outputLocation = inputLocation
-baseFile = 'Random_Green_201505.csv'
-outputOrigin =  'Random_Green_201505_Origin.shp'
-outputDestination = 'Random_Green_201505_Destination.shp'
 
 arcpy.env.workspace = inputLocation
 arcpy.env.overwrite = True
@@ -249,39 +246,43 @@ arcpy.env.overwrite = True
 # Setting up variables for X and Y data
 originX = 'Pickup_longitude'
 originY = 'Pickup_latitude'
-
 destinationX = 'Dropoff_longitude'
 destinationY = 'Dropoff_latitude'
 
 # Setting up variable with the appropriate projection
 spRef = r'Coordinate Systems\Geographic Coordinate Systems\World\WGS 1984.prj'
 
-# Starting the process with the ORIGIN data ----------------------------
-print 'Creating the XY event layer...'
-arcpy.MakeXYEventLayer_management(baseFile, originX, originY, 'tempLayer', spRef)
+# Loop through each one of the files
+for x in range(1,7):
+    print 'Starting the loop for file ' + str(x)
+    baseFile = 'Random_Green_20150' + str(x) + '.csv'
+    outputOrigin = 'Random_Green_20150' + str(x) + '_Origins_B.shp'
+    outputDestination = 'Random_Green_20150' + str(x) + '_Destinations_B.shp'
+    tempLayerOrigin = 'tempLayerOrigin' + str(x)
+    tempLayerDestination = 'tempLayerDestination' + str(x)
+    
+    # Starting the process with the ORIGIN data
+    print 'Creating the XY event layer...'
+    arcpy.MakeXYEventLayer_management(baseFile, originX, originY, tempLayerOrigin, spRef)
+    # Couting the number of trips in the file, to make sure it's correct
+    trips = arcpy.GetCount_management(tempLayerOrigin)
+    print 'There are ' + str(trips) + ' trips in the file...'
+    print 'Copying the origins layer....'
+    arcpy.CopyFeatures_management(tempLayerOrigin, outputOrigin)
 
-# Couting the number of trips in the file, to make sure it's correct
-trips = arcpy.GetCount_management('tempLayer')
-print 'There are ' + str(trips) + ' trips in the file...'
-
-print 'Copying the origins layer....'
-arcpy.CopyFeatures_management('tempLayer', outputOrigin)
-
-# Starting the process with the DESTINATION data ----------------------------
-print 'Creating the XY Destination event layer...'
-arcpy.MakeXYEventLayer_management(baseFile, destinationX, destinationY, 'tempLayerDestination', spRef)
-
-# Couting the number of trips in the file, to make sure it's correct
-trips = arcpy.GetCount_management('tempLayerDestination')
-print 'There are ' + str(trips) + ' trips in the file...'
-
-print 'Copying the destinations layer....'
-arcpy.CopyFeatures_management('tempLayerDestination', outputDestination)
+    # Starting the process with the DESTINATION data
+    print 'Creating the XY Destination event layer...'
+    arcpy.MakeXYEventLayer_management(baseFile, destinationX, destinationY, tempLayerDestination, spRef)
+    # Couting the number of trips in the file, to make sure it's correct
+    trips = arcpy.GetCount_management(tempLayerDestination)
+    print 'There are ' + str(trips) + ' trips in the file...'
+    print 'Copying the destinations layer....'
+    arcpy.CopyFeatures_management(tempLayerDestination, outputDestination)
 
 print 'Finished..............'
 ```
-* Select top Citibike stations and taxi trips within a radius of those stations.
- * Files to use: *[Citibike trips](https://www.citibikenyc.com/system-data)* & *[Yellow cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)*
+
+### Week 4: Scripting - Arcpy and scripting in ArcGIS (Part 2)
 * **Assignment:**
   * For every borough in the city select the lots that fall into the following categories:
     * Residential or Mixed-Use
@@ -301,6 +302,8 @@ print 'Finished..............'
     * PLUTO lot files: X:/GIS/New_York_City/Buildings_Lots/Lots/PLUTO/2015_15v1/
     * Subway stations: X:/GIS/New_York_City/Transportation/Subway/Subway_Stations_2009/
     * Other files that you might need for your maps.
+* Optional exercise: Select top Citibike stations and taxi trips within a radius of those stations.
+ * Files to use: *[Citibike trips](https://www.citibikenyc.com/system-data)* & *[Yellow cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)*
 
 ### Week 4: Webmapping
 CartoDB and Mapbox with Tilemill
