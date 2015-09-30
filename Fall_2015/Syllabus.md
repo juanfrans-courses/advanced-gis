@@ -283,6 +283,30 @@ print 'Finished..............'
 ```
 
 ### Week 4: Scripting - Arcpy and scripting in ArcGIS (Part 2)
+* Code so far: Selecting by location (for multiple files) **This code is NOT complete**:
+```python
+print 'Importing modules...'
+import csv
+import arcpy
+
+# Setting up global variables
+inputLocation = '//psf/Google Drive/01_SIDL/01_Personal_Projects/1502_Advanced_GIS_Fall_2015/02_Tutorials/02_Scripting_GIS/01_Class_Files/'
+outputLocation = inputLocation
+
+arcpy.env.workspace = inputLocation
+arcpy.env.overwrite = True
+
+for x in range(1,7):
+    print 'Starting the loop for file ' + str(x)
+    tripFile = 'Random_Green_20150' + str(x) + '_Destinations_B.shp'
+    deadheadFile = 'Deadhead_Zone_03.shp'
+    tripOutput = 'DeadheadTrips_' + str(x) + '.shp'
+
+    arcpy.MakeFeatureLayer_management(tripFile, 'tripFile' + str(x))
+    arcpy.MakeFeatureLayer_management(deadheadFile, 
+
+print 'Finished..............'
+```
 * **Assignment:**
   * For every borough in the city select the lots that fall into the following categories:
     * Residential or Mixed-Use
