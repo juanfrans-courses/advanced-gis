@@ -340,7 +340,7 @@ CartoDB and Mapbox with Tilemill
 * [OpenStreetsMap](https://www.openstreetmap.org)
 * [Mapzen](https://mapzen.com/)
 * **Oct. 5: Scripting in ArcGIS assignment due**
-* **Oct. 5: Final project proposal due**
+* **Oct. 6: Final project proposal due**
 
 ### Week 6: Spatial analysis and statistics
 Spatial autocorrelation, spatial sampling, point pattern analysis and quadrat analysis
