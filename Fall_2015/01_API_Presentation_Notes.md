@@ -4,7 +4,7 @@
 * Improve combination of graphs and maps.
 * Be more detailed with your graphs (what month, units), better labels.
 * Give an overview of the data you are working with, describe your data in graphs and maps.
-* 
+
 ### Group 2: #NYFW
 * Good graphics.
 
