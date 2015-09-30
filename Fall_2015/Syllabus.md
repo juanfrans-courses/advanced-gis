@@ -283,7 +283,7 @@ print 'Finished..............'
 ```
 
 ### Week 4: Scripting - Arcpy and scripting in ArcGIS (Part 2)
-* Code so far: Selecting by location (for multiple files) **This code is NOT complete**:
+* Code so far - Selecting by location (for multiple files) **This code is NOT complete**:
 ```python
 print 'Importing modules...'
 import csv
@@ -328,34 +328,36 @@ print 'Finished..............'
     * Other files that you might need for your maps.
 * Optional exercise: Select top Citibike stations and taxi trips within a radius of those stations.
  * Files to use: *[Citibike trips](https://www.citibikenyc.com/system-data)* & *[Yellow cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)*
-
-### Week 4: Webmapping
-CartoDB and Mapbox with Tilemill
-* [OpenStreetsMap](https://www.openstreetmap.org)
-* [Mapzen](https://mapzen.com/)
 * **Sep. 29: APIs Review**:
  * 5 minute presentation (slides)
  * Reserach question
  * Maps, graphs and analysis (describe the data and your findings)
  * Pseudocode and code
  * Problems with coding or with APIs (what do we need to be careful about?)
-* **Oct. 1: Scripting in ArcGIS assignment due**
 
-### Week 5: Spatial analysis and statistics
+### Week 5: Webmapping
+CartoDB and Mapbox with Tilemill
+* [OpenStreetsMap](https://www.openstreetmap.org)
+* [Mapzen](https://mapzen.com/)
+* **Oct. 5: Scripting in ArcGIS assignment due**
+* **Oct. 5: Final project proposal due**
+
+### Week 6: Spatial analysis and statistics
 Spatial autocorrelation, spatial sampling, point pattern analysis and quadrat analysis
 * *McGrew, J. Chapman and Monroe, Charles B. An Introduction to Statistical Problem Solving in Geography, Chapter 12*
 * *Mitchell, Andy, The ESRI Guide to GIS Analysis, Volume 2: Spatial Measurements & Statistics, Testing Statistical Significance and Chapter 3*
 * Downloading data from 311 (NYC Open data)
-* **Oct. 5: Final project proposal due**
-* **Oct. 5: Webmapping assignment due**
+* **Oct. 12: Webmapping assignment due**
 
-### Week 6: Spatial analysis and statistics
+### Week 7: Spatial analysis and statistics
 Clusters, quadrats, hot-spots and cold-spots
 * *Mitchell, Andy, The ESRI Guide to GIS Analysis, Volume 2: Spatial Measurements & Statistics, Chapter 3, 4 and 5*
 * *Ogneva-Himmelberger, Yelena and Cooperman, Brian, Spatio-temporal Analysis of Noise Pollution near Boston Logan Airport: Who Carries the Cost?, Urban Studies 2010 47: 169.*
-* **Oct. 12: Spatial statistics assignment 1 due**
+* **Oct. 19: Spatial statistics assignment 1 due**
+* **Oct. 22: Midterm presentations**:
+ * 600 Ware Lounge (7pm - 9pm)
 
-### Week 7: Remote sensing and midterm presentations
+### Week 8: Remote sensing and midterm presentations
 Applications, history, process, key concepts and limitations
 * *Campbell, James B. Introduction to Remote Sensing, Chapter 1*
 * *Miller, Roberta Balstad and Small, Christopher, Cities from space: potential applications of remote sensing in urban environmental research and policy, Environmental Science & Policy 6 (2003)*
@@ -364,44 +366,39 @@ Applications, history, process, key concepts and limitations
 * *Small, Christopher, High spatial resolution spectral mixture analysis of urban reflectance, Remote Sensing of Environment 88 (2003)*
 * *Trauth, Kathleen M. A role for remote sensing information in storm water planning and management, Clean Tech Environ Policy 6 (2004)*
 * *Yang, X and Lo, C. P. Using a time series of satellite imagery to detect land use and land cover changes in the Atlanta, Georgia Metropolitan area, International Journal of Remote Sensing 9 (2002)*
-* **Oct. 19: Spatial statistics assignment 2 due**
-* **Oct. 22: Midterm presentations**:
- * 600 Ware Lounge (7pm - 9pm)
+* **Oct. 26: Spatial statistics assignment 2 due**
 
-### Week 8: Surface modeling
+### Week 9: Surface modeling
 Sampling, interpolation and prediction
 * *Bolstad, Paul. GIS Fundamentals: A First Text on Geographic Information Systems, chapter 11 and 12*
 * *DeMers, Michael N. Fundaamentals of Geographic Information Systems, chapter 10*
 * *Marshall, Julian D., Brauer, Michael and Frank, Lawrence D. Healthy Neighborhoods: Walkability and Air Pollution, Environmental Health Perspectives 117 (2009)*
-* **Oct. 26: Remote sensing assignment due**
+* **Nov. 2: Remote sensing assignment due**
 
-### Week 9: Network analysis and transportation planning
+### Week 10: Network analysis and transportation planning
 Introduction, network characteristics and history of transportation planning
 * *Mitchell, Andy. The ESRI Guide to GIS Analysis, Volume 1: Geographic Patterns & Relationships, Measuring distance or cost over a network*
 * *Nyerges, Timothy L. GIS in Urban-Regional Transportation Planning (chapter 7), in The Geography of Urban Transportation, Edited by Hanson, Susan and Giuliano, Genevieve*
 * *Oliver, Lisa N. Schuurman, Nadine and Hall, Alexander W. Comparing circular and network buffers to examine the influence of land use on walking for leisure and errands, Internation Journal of Health Geographics (2007)*
 * *Schuurman, Nadine, Fiedler, Robert S., Grzybowski, Stefan CW. and Grund, Darrin. Defining rational hospital catchments for non-urban areas based on travel-time, International Journal of Health Geographics (2006)*
 * *Sultana, Selima and Weber, Joe. Journey-to-Work Patterns in the Age of Sprawl: Evidence from Two Midsize Southern Metropolitan Areas, The Professional Geographer (2007)*
-* **Nov. 2: Surface modeling assignment due**
+* **Nov. 9: Surface modeling assignment due**
 
-### Week 10: Model builder
+### Week 11: Model builder
 Decision support systems, levels of measurement, rules for spatial data combination, ranking strategies, the build-out model and artificial intelligence models
 * *Allen, Jeffery and Lu, Kang. Modeling and Prediction of Future Urban Growth in the Charleston Region of South Carolina: a GIS-based Integrated Approach, Conservation Ecology 8(2)*
 * *Town of Amherst, Massachusetts, Build-Out Analysis and Future Growth Study (2002)*
 * *Carr, Margaret H. Smart Land-Use Analysis: The LUCIS Model, chapters 4 - 12*
 * *Johnson, Michael P. Spatial decision support for assisted housing mobility counseling, Decision Support Systems 41 (2005)*
 * *Longley, Paul A., Goodchild, Michael F., Maguire, David J. and Rhind, David W. Geographic Information Systems and Science, chapter 16*
-* **Nov. 9: Network analysis assignment due**
+* **Nov. 16: Network analysis assignment due**
 
-### Week 11: Spatial relationships and regressions
-* **Nov. 16: Model builder assignment due**
-
-### Week 12: Work in class
-Final project development
-* **Nov. 23: Spatial regression assignment due**
+### Week 12: Spatial relationships and regressions
+* **Nov. 23: Model builder assignment due**
 
 ### Week 13: Work in class
 Final project development
+* **Nov. 30: Spatial regression assignment due**
 
 ### Week 14: Final presentations and final papers due
 * **Dec. 8: Final presentations**
