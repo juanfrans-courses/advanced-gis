@@ -324,6 +324,59 @@ for x in range(1,7):
 
 print 'Finished..............'
 ```
+* Code - Projecting files (for multiple files):
+```python
+print 'Importing modules...'
+import csv
+import arcpy
+
+# Setting up global variables
+inputLocation = 'path to your folder'
+outputLocation = inputLocation
+
+arcpy.env.workspace = inputLocation
+arcpy.env.overwrite = True
+
+# Setting up the file from which we are getting the right projection (name)
+sampleFile = 'Deadhead_Zone_03.shp'
+spatialRef = arcpy.Describe(sampleFile).spatialReference
+print 'Projecting to: ' + spatialRef.name
+
+for x in range(1,7):
+    print 'Starting the loop for file ' + str(x)
+    deadheadTrips = 'DeadheadTrips_' + str(x) + '.shp'
+    outputTrips = 'DeadheadTrips_Projected_' + str(x) + '.shp'
+    
+    # Projecting the files using the projection from the base file
+    arcpy.Project_management(deadheadTrips, outputTrips, spatialRef)
+
+print 'Finished..............'
+```
+* Code - Calculating distance to nearest point (for multiple files):
+```python
+print 'Importing modules...'
+import csv
+import arcpy
+
+# Setting up global variables
+inputLocation = 'path to your location'
+outputLocation = inputLocation
+
+arcpy.env.workspace = inputLocation
+arcpy.env.overwrite = True
+
+# File that contains the points to which we will calculate the distance
+centroidFile = 'Edge_Taz_Centroid.shp'
+
+for x in range(1,7):
+    print 'Starting the loop for file ' + str(x)
+    deadheadTrips = 'DeadheadTrips_Projected_' + str(x) + '.shp'
+    
+    # Calculating the distance from 'deadhead destinations' to nearest 'TAZ centroid'
+    arcpy.Near_analysis(deadheadTrips, centroidFile)
+
+print 'Finished..............'
+```
 * **Assignment:**
   * For every borough in the city select the lots that fall into the following categories:
     * Residential or Mixed-Use
