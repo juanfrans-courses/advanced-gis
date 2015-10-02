@@ -440,3 +440,4 @@ Final project development
 * [New York Times - Interactive Storytelling](http://www.nytimes.com/interactive/2014/12/29/us/year-in-interactive-storytelling.html?_r=0#data-visualization)
 * [Fathom](http://fathom.info/)
 * [Data Canvas](http://map.datacanvas.org/#)
+* [Waze Global Driver Satisfaction Index](http://blog.waze.com/2015/09/global-driver-satisfaction-index.html)
