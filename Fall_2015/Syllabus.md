@@ -283,27 +283,44 @@ print 'Finished..............'
 ```
 
 ### Week 4: Scripting - Arcpy and scripting in ArcGIS (Part 2)
-* Code so far - Selecting by location (for multiple files) **This code is NOT complete**:
+* Code - Selecting by location (for multiple files):
 ```python
 print 'Importing modules...'
 import csv
 import arcpy
 
 # Setting up global variables
-inputLocation = '//psf/Google Drive/01_SIDL/01_Personal_Projects/1502_Advanced_GIS_Fall_2015/02_Tutorials/02_Scripting_GIS/01_Class_Files/'
+inputLocation = 'path to your location'
 outputLocation = inputLocation
 
 arcpy.env.workspace = inputLocation
 arcpy.env.overwrite = True
 
+# Creating the layer for the file we will select with
+deadheadFile = 'Deadhead_Zone_03.shp'
+arcpy.MakeFeatureLayer_management(deadheadFile, 'deadheadFile') 
+
+
 for x in range(1,7):
     print 'Starting the loop for file ' + str(x)
+    # Creating the layer for the trip file
     tripFile = 'Random_Green_20150' + str(x) + '_Destinations_B.shp'
-    deadheadFile = 'Deadhead_Zone_03.shp'
     tripOutput = 'DeadheadTrips_' + str(x) + '.shp'
-
     arcpy.MakeFeatureLayer_management(tripFile, 'tripFile' + str(x))
-    arcpy.MakeFeatureLayer_management(deadheadFile, 
+    
+    # Counting the number of trips in the file
+    trips = arcpy.GetCount_management('tripFile' + str(x))
+    print 'There are ' + str(trips) + ' trips in the file...'
+    
+    # Selecting by location
+    arcpy.SelectLayerByLocation_management('tripFile' + str(x), 'intersect', 'deadheadFile')
+    
+    # Counting the number of selected trips
+    trips = arcpy.GetCount_management('tripFile' + str(x))
+    print 'There are ' + str(trips) + ' selected trips in the file...'
+
+    # Creating a new file based on the selected trips
+    arcpy.CopyFeatures_management('tripFile' + str(x), tripOutput)
 
 print 'Finished..............'
 ```
