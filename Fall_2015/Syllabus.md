@@ -420,7 +420,7 @@ CartoDB and Mapbox with Tilemill
     * Show land-use
     * Combine both layers
     * Add basemap, title, info window and publish
-* [CartoDB Tutorials(http://docs.cartodb.com/tutorials.html)
+* [CartoDB Tutorials](http://docs.cartodb.com/tutorials.html)
 * [OpenStreetsMap](https://www.openstreetmap.org)
 * [Mapzen](https://mapzen.com/)
 * **Oct. 5: Scripting in ArcGIS assignment due**
