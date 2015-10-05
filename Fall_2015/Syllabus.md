@@ -409,12 +409,18 @@ print 'Finished..............'
 CartoDB and Mapbox with Tilemill
 * Webmapping presentation
 * CartoDB exercise:
-  * Create land-use and taxi activity map:
+  * Create taxi activity and land-use maps (and combination):
     * Create file for one day of green cabs dropoffs
     * Load into CartoDB (explore ways of visualizing and filtering)
-     * SQL example:
-      * `SELECT * FROM table_01_selected_trips_20150601 WHERE fare_amount > 50`
-    * Load 
+    * SQL example:
+    * `SELECT * FROM table_01_selected_trips_20150601 WHERE fare_amount > 50 AND passenger_count <= 3`
+    * [CartoDB Tips & Tricks](http://docs.cartodb.com/tips-and-tricks.html)
+    * Load building footprint files
+    * Show CartoCSS editor (yearbuilt category)
+    * Show land-use
+    * Combine both layers
+    * Add basemap, title, info window and publish
+* [CartoDB Tutorials(http://docs.cartodb.com/tutorials.html)
 * [OpenStreetsMap](https://www.openstreetmap.org)
 * [Mapzen](https://mapzen.com/)
 * **Oct. 5: Scripting in ArcGIS assignment due**
