@@ -407,6 +407,14 @@ print 'Finished..............'
 
 ### Week 5: Webmapping
 CartoDB and Mapbox with Tilemill
+* Webmapping presentation
+* CartoDB exercise:
+  * Create land-use and taxi activity map:
+    * Create file for one day of green cabs dropoffs
+    * Load into CartoDB (explore ways of visualizing and filtering)
+     * SQL example:
+      * `SELECT * FROM table_01_selected_trips_20150601 WHERE fare_amount > 50`
+    * Load 
 * [OpenStreetsMap](https://www.openstreetmap.org)
 * [Mapzen](https://mapzen.com/)
 * **Oct. 5: Scripting in ArcGIS assignment due**
