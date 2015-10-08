@@ -426,6 +426,80 @@ CartoDB and Mapbox with Tilemill
   * Upload data and customize
   * Save map and get info
   * Add basemap to CartoDB and publish
+* TileMill exercise:
+  * Create project
+  * Load data
+  * Style data
+  * Variables
+  * Attributes
+  * Zoom levels
+  * Exporting
+  * Loading onto Mapbox
+  * Code example for TileMill:
+```
+@waterColor: #333333;
+@landColor: #4C4C4C;
+@color1900: #D90000;
+@color1925: #FF8C00;
+@color1950: #A7C520;
+@colorMore1950: #3E606F;
+@tripsColor: #FFFFFF;
+
+Map {
+  background-color: @waterColor;
+}
+
+#tristate {
+  line-width:0;
+  polygon-opacity:1;
+  polygon-fill:@landColor;
+}
+
+#waterTristate {
+  line-width:0;
+  polygon-opacity:1;
+  polygon-fill:@waterColor;
+}
+
+#MNBuildings {
+  line-width:0;
+  polygon-opacity:1;
+  polygon-fill: @colorMore1950;
+  [CONSTRUCTI < 1950]{
+    polygon-fill: @color1950;
+  }
+  [CONSTRUCTI < 1925]{
+    polygon-fill: @color1925;
+  }
+  [CONSTRUCTI < 1900]{
+    polygon-fill: @color1900;
+  }
+}
+
+#trips {
+  [zoom > 14]{
+  	marker-width:3;
+  	marker-fill:@tripsColor;
+  	marker-line-width:0;
+  	marker-allow-overlap:true;
+  	marker-ignore-placement:true;
+  }
+  [zoom > 15]{
+  	marker-width:5;
+  	marker-fill:@tripsColor;
+  	marker-line-width:0;
+  	marker-allow-overlap:true;
+  	marker-ignore-placement:true;
+  }
+  [zoom > 16]{
+  	marker-width:7;
+  	marker-fill:@tripsColor;
+  	marker-line-width:0;
+  	marker-allow-overlap:true;
+  	marker-ignore-placement:true;
+  }
+}
+```
 * [OpenStreetsMap](https://www.openstreetmap.org)
 * [Mapzen](https://mapzen.com/)
 * **Oct. 5: Scripting in ArcGIS assignment due**
