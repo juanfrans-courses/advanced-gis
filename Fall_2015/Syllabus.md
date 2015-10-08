@@ -421,6 +421,11 @@ CartoDB and Mapbox with Tilemill
     * Combine both layers
     * Add basemap, title, info window and publish
 * [CartoDB Tutorials](http://docs.cartodb.com/tutorials.html)
+* Mapbox exercise:
+  * Create project and choose basemap
+  * Upload data and customize
+  * Save map and get info
+  * Add basemap to CartoDB and publish
 * [OpenStreetsMap](https://www.openstreetmap.org)
 * [Mapzen](https://mapzen.com/)
 * **Oct. 5: Scripting in ArcGIS assignment due**
