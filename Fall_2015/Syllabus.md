@@ -396,6 +396,55 @@ print 'Finished..............'
     * PLUTO lot files: X:/GIS/New_York_City/Buildings_Lots/Lots/PLUTO/2015_15v1/
     * Subway stations: X:/GIS/New_York_City/Transportation/Subway/Subway_Stations_2009/
     * Other files that you might need for your maps.
+   * Example of answer code (there are many ways of doing this, this is just one of them):
+```python
+print 'Importing modules...'
+import arcpy
+
+inputLocation = 'path to your folder'
+outputLocation = inputLocation
+
+arcpy.env.workspace = inputLocation
+arcpy.env.overwrite = True
+
+# Creating the arrays to be used in the loops
+print 'Setting up global variables...'
+boroughs = ['BK', 'BX', 'MN', 'QN', 'SI']
+years = [1930, 1959, 1960, 1961, 2016]
+FAR = [4.9, 7.5, 11.25, 12]
+
+# Starting the loops
+print 'Making feature layer...'
+for x in range(len(years)-1):
+    print 'Starting the loop for ' + str(years[x])
+    startYear = years[x]
+    endYear = years[x + 1]
+    maxFAR = FAR[x]
+    for borough in boroughs:
+        print 'Starting the loop for ' + borough
+        arcpy.MakeFeatureLayer_management(borough + 'MapPLUTO.shp', 'featureFile')
+        print 'Count of features in file = ' + str(arcpy.GetCount_management('featureFile'))
+
+        # Selecting by attribute
+        arcpy.SelectLayerByAttribute_management('featureFile', "NEW_SELECTION", """ "LandUse" = '01' OR "LandUse" = '02' OR "LandUse" = '03' OR "LandUse" = '04' """)
+        arcpy.SelectLayerByAttribute_management('featureFile', "SUBSET_SELECTION", """ "YearBuilt" >= """ + str(startYear) + """ AND "YearBuilt" < """ + str(endYear))
+        arcpy.SelectLayerByAttribute_management('featureFile', "SUBSET_SELECTION", """ ("BuiltFAR" - "ResidFAR") < 0 AND "BuiltFAR" < """ + str(maxFAR))
+        print 'Count of selected features = ' + str(arcpy.GetCount_management('featureFile'))
+
+        print 'Copying layer...'
+        arcpy.CopyFeatures_management('featureFile', borough + '_selectedLots_' + str(years[x]))
+        arcpy.Delete_management('featureFile') # Deletes 'featureFile' so it can be used again once the loop starts again
+
+print 'All done...'
+
+'''
+# Listing fields - this is useful to know what fileds each shapefile has and their type
+fields = arcpy.ListFields(boroughs[0] + '_featureFile')
+for field in fields:
+    print field.name
+    print field.type
+'''
+```
 * Optional exercise: Select top Citibike stations and taxi trips within a radius of those stations.
  * Files to use: *[Citibike trips](https://www.citibikenyc.com/system-data)* & *[Yellow cab trips](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml)*
 * **Sep. 29: APIs Review**:
