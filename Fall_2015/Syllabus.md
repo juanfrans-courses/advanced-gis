@@ -560,6 +560,7 @@ Spatial autocorrelation, spatial sampling, point pattern analysis and quadrat an
 * *Mitchell, Andy, The ESRI Guide to GIS Analysis, Volume 2: Spatial Measurements & Statistics, Testing Statistical Significance and Chapter 3*
 * Downloading data from 311 (NYC Open data)
 * **Oct. 12: Webmapping assignment due**
+* Assignment for this week [here](https://github.com/juanfrans-courses/advanced-gis/blob/master/Fall_2015/05_Spatial_Statistics_Assignment_01.md).
 
 ### Week 7: Spatial analysis and statistics
 Clusters, quadrats, hot-spots and cold-spots
