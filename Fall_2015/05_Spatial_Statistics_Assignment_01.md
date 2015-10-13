@@ -1,8 +1,7 @@
 #Spatial Statistics Assignment
 ###Understanding New York City 311 Noise Data (Part 1)
 
-
-*Due before the end of Sunday, March 8th*
+**Due before the end of Monday, October 19th**
 
 This is the first of a 2 part section assignment which will allow us to explore the 311 data about noise complaints in New York City. Using a dataset and a geography we are more familiar with will help us understand some of the logic behind basic spatial statistics.
 
