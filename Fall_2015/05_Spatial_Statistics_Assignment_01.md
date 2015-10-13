@@ -1,5 +1,5 @@
 #Spatial Statistics Assignment
-###Understanding New York City 311 Noise Data (Part 1)
+Understanding New York City 311 Noise Data (Part 1)
 
 **Due before the end of Monday, October 19th**
 
