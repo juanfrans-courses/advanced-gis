@@ -22,4 +22,4 @@ If you want to see if there are addresses with repeat complaints you can use the
 4. What is the null hypothesis for the tests you were performing above?
  
 ###DELIVERABLES
-No map is required for this assignment. Instead, you should provide a PDF document answering the questions and displaying your charts and data. The document should be uploaded to Courseworks before the end of Sunday, March 8th.
+No map is required for this assignment. Instead, you should provide a PDF document answering the questions and displaying your charts and data. The document should be uploaded to Courseworks before the end of Monday, October 19th.
