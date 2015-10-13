@@ -1,8 +1,7 @@
----
-title: Spatial Statistics Assignment
-subtitle: Understanding New York City 311 Noise Data (Part 1)
-date: March 2, 2015
----
+#Spatial Statistics Assignment
+##Understanding New York City 311 Noise Data (Part 1)
+##March 2, 2015
+
 
 *Due before the end of Sunday, March 8th*
 
