@@ -6,10 +6,9 @@ This is the first of a 2 part section assignment which will allow us to explore 
 
 ###DATASETS
 The datasets that you will use in this assignment are the following:
-1. Noise Complaint File for October 2010. Located at: GIS_Classes/A6232_Adv_GIS_SP2015/02_Tutorials/04_Spatial_Statistics_1/Assignment_Data/311_oct2010noisecomplaints.shp
-(The “descr” is the category description of the complaints.)
+1. [Noise Complaint File for September 2015](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9). You will need to filter and download the data for the month of September 2015 and only for those complaints relating to noise. Once you've downloaded the data, you will need to make it ready for GIS (change headers, delete unecessary fields, etc) and bring it into ArcMap. Once in ArcMap you will need to create a new shapefile with this data, with the appropriate projection.
 2. New York City Borough’s File. Located at:
-GIS_Classes/A6232_Adv_GIS_SP2015/02_Tutorials/04_Spatial_Statistics_1/Assignment_Data/bboundary.shp
+X:/New_York_City/Boundaries/Borough_Boundaries/nybb_15b/nybb.shp
  
 ###NOTE
 If you want to see if there are addresses with repeat complaints you can use the “collect events” tool. This tool will collect all the points that happen at the same location into one single point and give it a value field indicating how many points were collected at that same location. It’s a great tool for when you are working with point data.
