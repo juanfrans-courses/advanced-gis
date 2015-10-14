@@ -7,8 +7,8 @@ This is the first of a 2 part section assignment which will allow us to explore 
 ###DATASETS
 The datasets that you will use in this assignment are the following:
 * [Noise Complaint File for September 2015](https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9).
-  * You will need to filter and download the data for the month of September 2015 and only for those complaints relating to noise.
-  * Once you've downloaded the data, you will need to make it ready for GIS (change headers, delete unecessary fields, etc) and bring it into ArcMap.
+  * You will need to filter and download the data for the month of September 2015 and only for those complaints relating to noise (use the filter "Complaint Type" to select only those related to "noise").
+  * Once you've downloaded the data, you will need to make it ready for GIS (change headers, delete unecessary fields, etc) and bring it into ArcMap. Keep the "Descriptor" field, you will need it for the exercise.
   * Finally, once in ArcMap you will need to create a new shapefile with this data, with the appropriate projection.
 * New York City Borough’s File. Located at: X:/New_York_City/Boundaries/Borough_Boundaries/nybb_15b/nybb.shp
  
