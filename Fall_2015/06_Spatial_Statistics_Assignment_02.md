@@ -21,7 +21,7 @@ In this assignment you will identify noise hotspots and coldspots in New York Ci
  4. Provide an appendix that describes what you have done: what parameters did you specify for each one of your analysis? Please write down your results (show the score results). For example, if you used distance bands you should explain why you chose the distances that you did. Remember, like last week, you might need to perform the same analysis at different distances to find the optimal level of clustering.
 
 ###DELIVERABLES
-One PRINTED board (24x36 or something similar) with the three maps and brief texts describing each one of them, and one PDF appendix with your calculations. Again, think about your layout, titles, fonts, legend, scales, north arrows, labels and use of color. Practice your layout and design skills and make one board that is both clear and interesting. A PDF copy of your printed board and the appendix should be uploaded to Courseworks before the end of Monday, October 26th.
+One **PRINTED** board (24x36 or something similar) with the three maps and brief texts describing each one of them, and one PDF appendix with your calculations. Again, think about your layout, titles, fonts, legend, scales, north arrows, labels and use of color. Practice your layout and design skills and make one board that is both clear and interesting. A PDF copy of your printed board and the appendix should be uploaded to Courseworks before the end of Monday, October 26th.
 
 ###NOTE
 ***Printing at GSAPP takes a while, so early on figure out how to submit files to the print shop and what the turnaround time is. Don't leave it for last minute.***
