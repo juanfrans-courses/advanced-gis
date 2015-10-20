@@ -562,7 +562,7 @@ Spatial autocorrelation, spatial sampling, point pattern analysis and quadrat an
 * **Oct. 12: Webmapping assignment due**
 * Assignment for this week [here](https://github.com/juanfrans-courses/advanced-gis/blob/master/Fall_2015/05_Spatial_Statistics_Assignment_01.md).
 
-### Week 7: Spatial analysis and statistics
+### Week 7: Spatial analysis and statistics and midterm presentations
 Clusters, quadrats, hot-spots and cold-spots
 * *Mitchell, Andy, The ESRI Guide to GIS Analysis, Volume 2: Spatial Measurements & Statistics, Chapter 3, 4 and 5*
 * *Ogneva-Himmelberger, Yelena and Cooperman, Brian, Spatio-temporal Analysis of Noise Pollution near Boston Logan Airport: Who Carries the Cost?, Urban Studies 2010 47: 169.*
@@ -570,7 +570,7 @@ Clusters, quadrats, hot-spots and cold-spots
 * **Oct. 22: Midterm presentations**:
  * 600 Ware Lounge (7pm - 9pm)
 
-### Week 8: Remote sensing and midterm presentations
+### Week 8: Remote sensing
 Applications, history, process, key concepts and limitations
 * *Campbell, James B. Introduction to Remote Sensing, Chapter 1*
 * *Miller, Roberta Balstad and Small, Christopher, Cities from space: potential applications of remote sensing in urban environmental research and policy, Environmental Science & Policy 6 (2003)*
@@ -580,6 +580,7 @@ Applications, history, process, key concepts and limitations
 * *Trauth, Kathleen M. A role for remote sensing information in storm water planning and management, Clean Tech Environ Policy 6 (2004)*
 * *Yang, X and Lo, C. P. Using a time series of satellite imagery to detect land use and land cover changes in the Atlanta, Georgia Metropolitan area, International Journal of Remote Sensing 9 (2002)*
 * **Oct. 26: Spatial statistics assignment 2 due**
+* Oct. 29th: Presentation by Madeeha Merchant on the Aleppo Project.
 
 ### Week 9: Surface modeling
 Sampling, interpolation and prediction
