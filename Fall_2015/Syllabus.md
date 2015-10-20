@@ -580,7 +580,7 @@ Applications, history, process, key concepts and limitations
 * *Trauth, Kathleen M. A role for remote sensing information in storm water planning and management, Clean Tech Environ Policy 6 (2004)*
 * *Yang, X and Lo, C. P. Using a time series of satellite imagery to detect land use and land cover changes in the Atlanta, Georgia Metropolitan area, International Journal of Remote Sensing 9 (2002)*
 * **Oct. 26: Spatial statistics assignment 2 due**
-* Oct. 29th: Presentation by Madeeha Merchant on the Aleppo Project.
+* **Oct. 29th: Presentation by Madeeha Merchant on the Aleppo Project**
 
 ### Week 9: Surface modeling
 Sampling, interpolation and prediction
