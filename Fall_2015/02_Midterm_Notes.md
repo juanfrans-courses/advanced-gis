@@ -35,11 +35,28 @@
 
 ## Group 4 - Jeongwon, Seung Whan, Jack
 ### Noise complaint prediction
+* Spatial patterns of noise complaints around Halloween
+* Is this just a matter of population?
+* Is it just about where the halloween parades are?
+* What other variables are you looking at? Just twitter? land-use, transportation, population density, etc?
+* Twitter doesn't give you historical data
+* Pick another day, but make sure it's the same day of the week than halloween
+* Take into account the day of the week
+
+## Group 5 - Chris & Abdulla
+### Assessing gentrification in gayborhoods
+* Hypothesis: gayborhoods attract gentrification
+* Yellow cab data
+* 50ft buffer
+* 5pm to 4am (11:30 - 4am)
+* Destinations are in lower income communities?
+* Are gay bars located near heterosexual bars?
+
+## Group 6 - Valentina, Alexandra, Kaylee
+### NYC Crime Spatial Analysis
+* It would be good to get some crime stats (charts, more clear)
+* Cluster analysis? You should do one with each type of crime
 * 
-
-### Group 5 -
-
-### Group 6 -
 
 ### Group 7 -
 
