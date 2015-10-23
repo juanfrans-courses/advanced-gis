@@ -56,10 +56,16 @@
 ### NYC Crime Spatial Analysis
 * It would be good to get some crime stats (charts, more clear)
 * Cluster analysis? You should do one with each type of crime
-* 
+* You need to be more clear about the literature, what exactly are they saying, give examples of the patterns, explain better their findings
+* The types of visualization should be guided by the data, not the other way around
 
-### Group 7 -
-
-### Group 8 -
-
-### Group 9 -
+## Group 7 - Zhiguan & Shasha
+### Popularity of restaurants in relation to public health
+* Hypotethis: there's a relationship between popularity and sanitary conditions
+* Where are popular restaurants? Why based on rating? Not on checkins?
+* Do healthy restaurants cluster?
+* Do all restaurants cluster?
+* You can do a hotspot / coldspot analysis with the score
+* You can test rating (Yelp and Foursquare), popularity (based on foursquare), and sanitation
+* Yes, incorporate other variables (income, type of restaurant, etc, etc)
+* Make it more about planning
