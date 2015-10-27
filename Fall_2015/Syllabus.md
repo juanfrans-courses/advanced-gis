@@ -581,6 +581,7 @@ Applications, history, process, key concepts and limitations
 * *Yang, X and Lo, C. P. Using a time series of satellite imagery to detect land use and land cover changes in the Atlanta, Georgia Metropolitan area, International Journal of Remote Sensing 9 (2002)*
 * **Oct. 26: Spatial statistics assignment 2 due**
 * **Oct. 29th: Presentation by Madeeha Merchant on the Aleppo Project**
+* Wed. Oct. 28th: Lecture by Phil Martin - Data Scientist at NYC City Council Policy and Innovation Division.
 
 ### Week 9: Surface modeling
 Sampling, interpolation and prediction
@@ -597,6 +598,7 @@ Introduction, network characteristics and history of transportation planning
 * *Schuurman, Nadine, Fiedler, Robert S., Grzybowski, Stefan CW. and Grund, Darrin. Defining rational hospital catchments for non-urban areas based on travel-time, International Journal of Health Geographics (2006)*
 * *Sultana, Selima and Weber, Joe. Journey-to-Work Patterns in the Age of Sprawl: Evidence from Two Midsize Southern Metropolitan Areas, The Professional Geographer (2007)*
 * **Nov. 9: Surface modeling assignment due**
+* Mon. Nov. 9th: Lecture by Lela Prashad, Chief Data Scientist and Co-Founder at NiJeL (also works on GeoDa and does remote sensing at ASU).
 
 ### Week 11: Model builder
 Decision support systems, levels of measurement, rules for spatial data combination, ranking strategies, the build-out model and artificial intelligence models
