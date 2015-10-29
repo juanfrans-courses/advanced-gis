@@ -596,10 +596,10 @@ Applications, history, process, key concepts and limitations
  11. To create the composite rasters (combination of different bands) in ArcMap use the `Composite Bands` tool.
  12. Try to add the different bands in the right order. The first band you add will be the red, then green and then blue. However, if you don't do it in order, you can always change the symbology in the properties panel.
  13. Some common composite images are:
-  * True color composite: Bands 3, 2, 1
-  * False color composite, SPOT (good for vegetation): Bands 5, 4, 3
-  * False color composite (wet earth vs. dry earth): Bands 7, 5, 1
-  * False color compostie (vegetation, urban areas, etc): Bands 10, 7, 3
+   * True color composite: Bands 3, 2, 1
+   * False color composite, SPOT (good for vegetation): Bands 5, 4, 3
+   * False color composite (wet earth vs. dry earth): Bands 7, 5, 1
+   * False color compostie (vegetation, urban areas, etc): Bands 10, 7, 3
 
 ### Week 9: Surface modeling
 Sampling, interpolation and prediction
