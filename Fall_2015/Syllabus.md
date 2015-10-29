@@ -599,7 +599,19 @@ Applications, history, process, key concepts and limitations
     * True color composite: Bands 3, 2, 1
     * False color composite, SPOT (good for vegetation): Bands 5, 4, 3
     * False color composite (wet earth vs. dry earth): Bands 7, 5, 1
-    * False color compostie (vegetation, urban areas, etc): Bands 10, 7, 3
+    * False color composite (vegetation, urban areas, etc): Bands 10, 7, 3
+    * False color composite (urban): Bands 7, 5, 2
+    * False color composite (NDVI): Bands 5, 4
+* Links:
+ * [Earth Explorer](http://earthexplorer.usgs.gov/)
+ * [Landsat Live Mapbox](https://www.mapbox.com/blog/landsat-live-live/)
+ * [Landsat on AWS](https://aws.amazon.com/blogs/aws/start-using-landsat-on-aws/)
+ * [Development Seed Libra](https://libra.developmentseed.org/)
+ * [Landsat-Util](https://developmentseed.org/projects/landsat-util/) - command-line Landsat tools
+ * [Tutorial](https://www.mapbox.com/tilemill/docs/guides/landsat-8-imagery/) for processing Landsat imagery on Tilemill
+ * Mapbox [tutorial](https://www.mapbox.com/guides/processing-satellite-imagery/) for working with satellite imagery
+ * Mapbox Landsat metadata [viewer](https://www.mapbox.com/blog/satellite-metadata/)
+ * Mapbox Landsat bands [explanation](https://www.mapbox.com/blog/putting-landsat-8-bands-to-work/)
 
 ### Week 9: Surface modeling
 Sampling, interpolation and prediction
