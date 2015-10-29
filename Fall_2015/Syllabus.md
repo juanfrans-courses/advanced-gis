@@ -584,7 +584,22 @@ Applications, history, process, key concepts and limitations
 * Wed. Oct. 28th: Lecture by Phil Martin - Data Scientist at NYC City Council Policy and Innovation Division.
 * **Downloading Landsat images and creating composite rasters:**
  1. Go to [Earth Explorer](http://earthexplorer.usgs.gov/) and login. If you don't have an account, create one.
- 2. lksjglksjgklskjlg
+ 2. Enter the place you wish to search for. You can also enter a date to filter your results. Alternatively, you can also create a polygon, although this is not 100% necessary.
+ 3. Click `Show` and select the right option, and zoom in to verify the location.
+ 4. Click on `Data Sets`.
+ 5. Expand `Landsat Archive` and check `L8 OLI/TIRS` and `L7 ETM+ SLC-off (2003-present)`.
+ 6. Click `Results`.
+ 7. Explore the different viewing options: `Footprint`, `Browse Overlay`, etc.
+ 8. Scroll through the results and select the desired image. Click `Download Options`.
+ 9. Download the Level 1 GeoTIFF Data Product (the largest one).
+ 10. Once you've downloaded the file, unzip it and you can proceed to add the necessary bands to ArcMap.
+ 11. To create the composite rasters (combination of different bands) in ArcMap use the `Composite Bands` tool.
+ 12. Try to add the different bands in the right order. The first band you add will be the red, then green and then blue. However, if you don't do it in order, you can always change the symbology in the properties panel.
+ 13. Some common composite images are:
+  * True color composite: Bands 3, 2, 1
+  * False color composite, SPOT (good for vegetation): Bands 5, 4, 3
+  * False color composite (wet earth vs. dry earth): Bands 7, 5, 1
+  * False color compostie (vegetation, urban areas, etc): Bands 10, 7, 3
 
 ### Week 9: Surface modeling
 Sampling, interpolation and prediction
