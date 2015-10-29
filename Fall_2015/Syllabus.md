@@ -582,6 +582,9 @@ Applications, history, process, key concepts and limitations
 * **Oct. 26: Spatial statistics assignment 2 due**
 * **Oct. 29th: Presentation by Madeeha Merchant on the Aleppo Project**
 * Wed. Oct. 28th: Lecture by Phil Martin - Data Scientist at NYC City Council Policy and Innovation Division.
+* **Downloading Landsat images and creating composite rasters:**
+ 1. Go to [Earth Explorer](http://earthexplorer.usgs.gov/) and login. If you don't have an account, create one.
+ 2. lksjglksjgklskjlg
 
 ### Week 9: Surface modeling
 Sampling, interpolation and prediction
