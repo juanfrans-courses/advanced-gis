@@ -612,6 +612,9 @@ Applications, history, process, key concepts and limitations
  * Mapbox [tutorial](https://www.mapbox.com/guides/processing-satellite-imagery/) for working with satellite imagery
  * Mapbox Landsat metadata [viewer](https://www.mapbox.com/blog/satellite-metadata/)
  * Mapbox Landsat bands [explanation](https://www.mapbox.com/blog/putting-landsat-8-bands-to-work/)
+* **Assignment:**
+  * Download one or multiple Landsat images and using some of the techniques we saw in class and in the tutorial, perform some kind of analysis on the image(s). Basically, you need to come up with your own question and try to answer it through Landsat images and feature analyst tools.
+  * The deliverable is one PDF board (uploaded to Courseworks) in which you show your images, your process and your results. Please quantify your results and describe your process.
 
 ### Week 9: Surface modeling
 Sampling, interpolation and prediction
