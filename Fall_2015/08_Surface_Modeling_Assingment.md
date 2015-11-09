@@ -1,17 +1,15 @@
-#Spatial Statistics Assignment - Understanding New York City 311 Noise Data (Part 2)
+#Surface Modeling Assignment - Modeling Particulate Matter for New York City
 
-**Due before the end of Monday, October 26th**
- 
-This is the second of a 2 part section assignment which will allow us to explore the 311 data about noise complaints in New York City. Using a dataset and a geography we are more familiar with will help us understand some of the logic behind basic spatial statistics.
- 
+**Due in class on Tuesday, November 17th**
+
 ###DATASETS
 The datasets that you will use in this assignment are the following:
-* Noise complaint file for September 2015 (the same one that you used for your previous assignment)
-* New York City Borough’s File. Located at: X:/New_York_City/Boundaries/Borough_Boundaries/nybb_15b/nybb.shp
-* New York City Community Distric File. Located at X:/New_York_City/Boundaries/Community_Districts/nycd_15b/nycd.shp
-* New York City PLUTO File. Located at X:/New_York_City/Buildings_Lots/Lots/PLUTO/2015_15v1/
-* New York City Census Blocks File. Located at X:/New_York_City/Census/Census_Blocks_Tracts_2015/Census_Blocks/nycb2010_15b/
+* New York State air monitoring stations, located at: X:/GIS_Classes/A6232_Adv_GIS_FA2015/02_Assingment_Data/08_Surface_Modeling
+* New York State air pollution measurements, located [here](http://www.dec.ny.gov/airmon/getParameters.php?GroupNo=112)
 * Any other files you consider necessary for your final maps.
+
+###ASSIGNMENT
+Working in your final project groups, make particulate matter (PM 2.5) interpolation maps for *New York City*.
  
 ###QUESTIONS
 In this assignment you will identify noise hotspots and coldspots in New York City (locations where high or low levels of noise appear to be statistically significant). In order to better understand the relationships between the noise complaints and specific areas of the city you will perform a series of exercises and tests:
