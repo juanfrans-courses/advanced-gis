@@ -9,7 +9,9 @@ The datasets that you will use in this assignment are the following:
 * Any other files you consider necessary for your final maps.
 
 ###ASSIGNMENT
-Working in your final project groups, make particulate matter (PM 2.5) interpolation maps for *New York City*.
+Working in your final project groups, make particulate matter (PM 2.5) interpolation maps for *New York City*. On your final board you will need to show your maps, as well as the process you used to create them.
+
+Based on the air monitoring stations dataset mentioned above, download and join air quality data from the New York State Department of Environmental Conservation site (the other dataset mentioned above). You will need to join this data to the air monitoring stations dataset. Download the data for the whole of 2014 and calculate the average air quality measurement (PM 2.5) for each season of the year (seasonal variation has a great impact on pullution levels). Once you have done this, you will need to join that data to the shapefile with the air monitoring stations. Remember that to join data based on an attribute, you need to give the shapefile and the data a specific ID and use taht to join the tables.
  
 ###QUESTIONS
 In this assignment you will identify noise hotspots and coldspots in New York City (locations where high or low levels of noise appear to be statistically significant). In order to better understand the relationships between the noise complaints and specific areas of the city you will perform a series of exercises and tests:
