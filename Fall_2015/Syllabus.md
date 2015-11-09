@@ -622,6 +622,7 @@ Sampling, interpolation and prediction
 * *DeMers, Michael N. Fundaamentals of Geographic Information Systems, chapter 10*
 * *Marshall, Julian D., Brauer, Michael and Frank, Lawrence D. Healthy Neighborhoods: Walkability and Air Pollution, Environmental Health Perspectives 117 (2009)*
 * **Nov. 2: Remote sensing assignment due**
+* Surface modeling assignment located [here](https://github.com/juanfrans-courses/advanced-gis/blob/master/Fall_2015/08_Surface_Modeling_Assingment.md)
 
 ### Week 10: Network analysis and transportation planning
 Introduction, network characteristics and history of transportation planning
