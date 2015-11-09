@@ -569,6 +569,7 @@ Clusters, quadrats, hot-spots and cold-spots
 * **Oct. 19: Spatial statistics assignment 1 due**
 * **Oct. 22: Midterm presentations**:
  * 600 Ware Lounge (7pm - 9pm)
+* Answers to the Spatial Statistics assignments can be found [here](https://github.com/juanfrans-courses/advanced-gis/blob/master/Fall_2015/A_0506_Answers_Spatial_Statistics.md).
 
 ### Week 8: Remote sensing
 Applications, history, process, key concepts and limitations
