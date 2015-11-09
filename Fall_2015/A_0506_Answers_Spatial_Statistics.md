@@ -2,70 +2,13 @@
 
 ###Spatial Statistics Assignment_01
 1. Using the Nearest Neighbor form of pattern analysis answer the following questions: Does the 311 noise complaints overall exhibit a dispersed, clustered or random pattern? How do you know? At what confidence level can you say this? Does this make sense by looking at the data? (Hint, think about the in class exercise to determine your area.) Provide your test results.
+    * Here, to measure whether the 311 noise complaints exhibit an overall dispersion, clustered or random pattern, we use the ‘Average Nearest Neighbor’ tool which measures to see if the physical locations are closer together than they would be expected with a random distribution. For the area, within the tool, use the cumulative square footage of the five boroughs. For the sub-questions, analyze and infer the confidence level from the resulting graph and distribution chart. 
 
-    * Here, to measure whether the 311 noise complaints exhibit an overall 
+2. Do any of the subcategories represented in the “descr” field exhibit clustering? If so, which ones? Provide your test results for each one of the categories.
+      * Use the same tool for this question with specific categories from within the ‘descr’ field, one at a time, and read the results to understand if the categories exhibit clustering within the field. 
 
-dispersion, clustered or random pattern, we use the ‘Average Nearest 
-
-Neighbor’ tool which measures to see if the physical locations are closer 
-
-together than they would be expected with a random distribution. For the 
-
-area, within the tool, use the cumulative square footage of the five boroughs. 
-
-For the sub-questions, analyze and infer the confidence level from the 
-
-resulting graph and distribution chart. 
-
-2. Do any of the subcategories represented in the “descr” field exhibit clustering? If 
-
-so, which ones? Provide your test results for each one of the categories.
-
-A2. Use the same tool for this question with specific categories from within 
-
-the ‘descr’ field, one at a time, and read the results to understand if the 
-
-categories exhibit clustering within the field. 
-
-3. We want to know whether addresses where there are repeat calls to 311 also 
-
-cluster in the data set. In other words do addresses that call 311 often cluster? 
-
-(Hint, this is where you may want to use the collect events tool.) If they do, is 
-
-there a distance in which clustering is more exhibited? Why do you think you see 
-
-this pattern? Please create a chart showing clustering results at six different 
-
-distances. Please be strategic in selecting distances used; why did you choose 
-
-them? Is there anything expected or unexpected about the results you 
-
-generated?
-
-A3. Using the ‘collect events’ tool for the first part of the question, differentiate 
-
-those points which make 311 calls often (calls>1). There are various ways of 
-
-proceeding with this analysis. Using the ‘Multidistance Clustering’ we can 
-
-understand the variation of distance at which clustering is occurring, by trying 
-
-a couple of different distance bands and increments. This gives us a fair idea 
-
-about the distance where the clustering peaks. Using this and keeping the 
-
-Manhattan block size in mind (always refer to the city fabric you are working 
-
-with) we choose 6 distances and perform the ‘Getis Ord General G’ tool. This 
-
-tool helps to see if there are areas where similar values are closer together 
-
-than would be expected with a random distribution. 
-
-We can also use the ‘Getis Ord General G’ tool directly after the collect 
-
-events tool by choosing 6 distances as discussed above. 
+3. We want to know whether addresses where there are repeat calls to 311 also cluster in the data set. In other words do addresses that call 311 often cluster? (Hint, this is where you may want to use the collect events tool.) If they do, is there a distance in which clustering is more exhibited? Why do you think you see this pattern? Please create a chart showing clustering results at six different distances. Please be strategic in selecting distances used; why did you choose them? Is there anything expected or unexpected about the results you generated?
+      * Using the ‘collect events’ tool for the first part of the question, differentiate those points which make 311 calls often (calls>1). There are various ways of proceeding with this analysis. Using the ‘Multidistance Clustering’ we can understand the variation of distance at which clustering is occurring, by trying a couple of different distance bands and increments. This gives us a fair idea about the distance where the clustering peaks. Using this and keeping the Manhattan block size in mind (always refer to the city fabric you are working with) we choose 6 distances and perform the ‘Getis Ord General G’ tool. This tool helps to see if there are areas where similar values are closer together than would be expected with a random distribution. We can also use the ‘Getis Ord General G’ tool directly after the collect events tool by choosing 6 distances as discussed above.
 
 4. What is the null hypothesis for the tests you were performing above?
 
