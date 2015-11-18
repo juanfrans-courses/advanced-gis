@@ -649,7 +649,6 @@ Decision support systems, levels of measurement, rules for spatial data combinat
 
 ### Week 13: Work in class
 Final project development
-* **Nov. 30: Spatial regression assignment due**
 
 ### Week 14: Final presentations and final papers due
 * **Dec. 8: Final presentations**
