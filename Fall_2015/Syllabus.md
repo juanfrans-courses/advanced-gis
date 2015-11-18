@@ -651,7 +651,8 @@ Decision support systems, levels of measurement, rules for spatial data combinat
 Final project development
 
 ### Week 14: Final presentations and final papers due
-* **Dec. 8: Final presentations**
+* **Dec. 8: Final presentations - Part 1 (Fayerweather 200 South)**
+* **Dec. 8: Final presentations - Part 2 (Avery 114)**
 * **Dec. 10: Final papers due**
 
 ## References
