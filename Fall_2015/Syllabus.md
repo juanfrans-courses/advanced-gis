@@ -652,7 +652,14 @@ Final project development
 
 ### Week 14: Final presentations and final papers due
 * **Dec. 8: Final presentations - Part 1 (Fayerweather 200 South)**
+  * Zhiguan & Shasha
+  * Alexandra, Valentina & Kaylee
+  * Chris & Abdulla
+  * Jeongwon, Seung Whang & Jack
 * **Dec. 10: Final presentations - Part 2 (Avery 114)**
+  * Emily, Sinae & Mark
+  * Jialei & Yuhan
+  * Logan & Tim
 * **Dec. 10: Final papers due**
 
 ## References
